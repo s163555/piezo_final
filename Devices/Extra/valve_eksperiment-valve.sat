@@ -1,0 +1,824 @@
+1600 0 3 0           
+31 CoventorWare 2006 SolidModeler  14 ACIS 16.0.3 NT 24 Mon Nov 28 20:30:37 2022 
+1 9.9999999999999995e-007 1e-010 
+body $3 -1 -1 $-1 $4 $-1 $5 F #
+body $6 -1 -1 $-1 $7 $-1 $8 F #
+body $9 -1 -1 $-1 $10 $-1 $11 F #
+string_attrib-name_attrib-gen-attrib $-1 -1 $12 $-1 $0 2 4 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @13 material_name @5 GLASS #
+lump $-1 -1 -1 $-1 $-1 $13 $0 F #
+transform $-1 -1 1 0 0 0 1 0 0 0 1 0 0 -10 1 no_rotate no_reflect no_shear #
+string_attrib-name_attrib-gen-attrib $-1 -1 $14 $-1 $1 2 4 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @13 material_name @9 POLYIMIDE #
+lump $-1 -1 -1 $-1 $15 $16 $1 F #
+transform $-1 -1 1 0 0 0 1 0 0 0 1 0 0 -10 1 no_rotate no_reflect no_shear #
+string_attrib-name_attrib-gen-attrib $-1 -1 $17 $-1 $2 2 4 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @13 material_name @7 SILICON #
+lump $-1 -1 -1 $-1 $18 $19 $2 F #
+transform $-1 -1 1 0 0 0 1 0 0 0 1 0 0 -10 1 no_rotate no_reflect no_shear #
+string_attrib-name_attrib-gen-attrib $-1 -1 $20 $3 $0 2 4 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @10 layer_name @9 Substrate #
+shell $-1 -1 -1 $-1 $-1 $-1 $21 $-1 $4 F #
+string_attrib-name_attrib-gen-attrib $-1 -1 $22 $6 $1 2 4 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @10 layer_name @6 Layer1 #
+lump $-1 -1 -1 $-1 $-1 $23 $1 F #
+shell $-1 -1 -1 $-1 $-1 $-1 $24 $-1 $7 F #
+string_attrib-name_attrib-gen-attrib $-1 -1 $25 $9 $2 2 4 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @10 layer_name @5 Pylon #
+lump $-1 -1 -1 $-1 $-1 $26 $2 F #
+shell $-1 -1 -1 $-1 $-1 $-1 $27 $-1 $10 F #
+rgb_color-st-attrib $-1 -1 $-1 $12 $0 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 0.5 0 #
+face $-1 -1 -1 $-1 $28 $29 $13 $-1 $30 reversed single F F #
+rgb_color-st-attrib $-1 -1 $31 $14 $1 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 0 0.99609375 #
+shell $-1 -1 -1 $-1 $-1 $-1 $32 $-1 $15 F #
+face $-1 -1 -1 $-1 $33 $34 $16 $-1 $35 forward single F F #
+rgb_color-st-attrib $-1 -1 $36 $17 $2 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0.5 0 0 #
+shell $-1 -1 -1 $-1 $-1 $-1 $37 $-1 $18 F #
+face $-1 -1 -1 $-1 $38 $39 $19 $-1 $40 forward single F F #
+face $-1 -1 -1 $-1 $41 $42 $13 $-1 $43 reversed single F F #
+loop $-1 -1 -1 $-1 $-1 $44 $21 F unknown #
+plane-surface $-1 -1 -1 $-1 70 90 10 -1 -0 -0 0 1 0 forward_v I I I I #
+rgb_color-st-attrib $-1 -1 $-1 $22 $1 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 0.5 0 #
+face $-1 -1 -1 $-1 $45 $46 $23 $-1 $47 forward single F F #
+face $-1 -1 -1 $-1 $48 $49 $16 $-1 $50 forward single F F #
+loop $-1 -1 -1 $-1 $-1 $51 $24 F unknown #
+plane-surface $-1 -1 -1 $-1 80 90 12 -1 -0 -0 0 1 0 forward_v I I I I #
+rgb_color-st-attrib $-1 -1 $-1 $25 $2 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 0.5 0 #
+face $-1 -1 -1 $-1 $52 $53 $26 $-1 $54 forward single F F #
+face $-1 -1 -1 $-1 $55 $56 $19 $-1 $57 forward single F F #
+loop $-1 -1 -1 $-1 $-1 $58 $27 F unknown #
+plane-surface $-1 -1 -1 $-1 100 90 17 0 1 0 1 0 0 forward_v I I I I #
+face $-1 -1 -1 $-1 $59 $60 $13 $-1 $61 reversed single F F #
+loop $-1 -1 -1 $-1 $-1 $62 $28 F unknown #
+plane-surface $-1 -1 -1 $-1 80 90 10 0 1 0 1 0 0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $63 $64 $65 $66 reversed $29 $-1 #
+face $-1 -1 -1 $-1 $67 $68 $23 $-1 $69 reversed single F F #
+loop $-1 -1 -1 $-1 $70 $71 $32 F unknown #
+plane-surface $-1 -1 -1 $-1 50 50 12 0 0 1 1 0 0 forward_v I I I I #
+face $-1 -1 -1 $-1 $72 $73 $16 $-1 $74 forward single F F #
+loop $-1 -1 -1 $-1 $-1 $75 $33 F unknown #
+plane-surface $-1 -1 -1 $-1 80 10 12 0 1 0 1 0 0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $76 $77 $78 $79 forward $34 $-1 #
+face $-1 -1 -1 $-1 $80 $81 $26 $-1 $82 reversed single F F #
+loop $-1 -1 -1 $-1 $-1 $83 $37 F unknown #
+plane-surface $-1 -1 -1 $-1 50 50 15 0 0 1 1 0 0 forward_v I I I I #
+face $-1 -1 -1 $-1 $84 $85 $19 $-1 $86 forward single F F #
+loop $-1 -1 -1 $-1 $-1 $87 $38 F unknown #
+plane-surface $-1 -1 -1 $-1 90 10 17 0 -1 0 -1 -0 -0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $88 $89 $90 $91 forward $39 $-1 #
+face $-1 -1 -1 $-1 $92 $93 $13 $-1 $94 reversed single F F #
+loop $-1 -1 -1 $-1 $-1 $95 $41 F unknown #
+plane-surface $-1 -1 -1 $-1 70 10 10 0 -1 0 -1 -0 -0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $96 $97 $98 $99 reversed $42 $-1 #
+coedge $-1 -1 -1 $-1 $100 $44 $97 $101 reversed $29 $-1 #
+coedge $-1 -1 -1 $-1 $44 $100 $102 $103 forward $29 $-1 #
+coedge $-1 -1 -1 $-1 $104 $98 $44 $66 forward $105 $-1 #
+edge $-1 -1 -1 $-1 $106 -20 $107 60 $65 $108 forward @7 unknown T 70 10 0 70 90 0 #
+face $-1 -1 -1 $-1 $109 $110 $23 $-1 $111 reversed single F F #
+loop $-1 -1 -1 $-1 $-1 $112 $45 F unknown #
+plane-surface $-1 -1 -1 $-1 50 100 6 0 -1 0 0 0 -1 forward_v I I I I #
+loop $-1 -1 -1 $-1 $-1 $113 $32 F unknown #
+coedge $-1 -1 -1 $-1 $114 $115 $116 $117 reversed $46 $-1 #
+face $-1 -1 -1 $-1 $118 $119 $16 $-1 $120 forward single F F #
+loop $-1 -1 -1 $-1 $-1 $121 $48 F unknown #
+plane-surface $-1 -1 -1 $-1 60 100 12 -1 -0 -0 0 1 0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $122 $123 $124 $125 forward $49 $-1 #
+coedge $-1 -1 -1 $-1 $126 $51 $123 $127 reversed $34 $-1 #
+coedge $-1 -1 -1 $-1 $51 $126 $128 $129 forward $34 $-1 #
+coedge $-1 -1 -1 $-1 $130 $124 $51 $79 reversed $131 $-1 #
+edge $-1 -1 -1 $-1 $132 -60 $133 20 $78 $134 forward @7 unknown F #
+face $-1 -1 -1 $-1 $135 $136 $26 $-1 $137 forward single F F #
+loop $-1 -1 -1 $-1 $-1 $138 $52 F unknown #
+plane-surface $-1 -1 -1 $-1 0 50 6 1 0 0 0 0 -1 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $139 $140 $141 $142 reversed $53 $-1 #
+face $-1 -1 -1 $-1 $143 $144 $19 $-1 $145 forward single F F #
+loop $-1 -1 -1 $-1 $-1 $146 $55 F unknown #
+plane-surface $-1 -1 -1 $-1 95 0 12 1 0 0 -0 -1 -0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $147 $148 $146 $149 forward $56 $-1 #
+coedge $-1 -1 -1 $-1 $150 $58 $151 $152 forward $39 $-1 #
+coedge $-1 -1 -1 $-1 $58 $153 $154 $155 forward $39 $-1 #
+coedge $-1 -1 -1 $-1 $156 $157 $58 $91 reversed $85 $-1 #
+edge $-1 -1 -1 $-1 $158 -2.5 $159 -0.5 $90 $160 forward @7 unknown F #
+face $-1 -1 -1 $-1 $161 $162 $13 $-1 $163 reversed single F F #
+loop $-1 -1 -1 $-1 $-1 $164 $59 F unknown #
+plane-surface $-1 -1 -1 $-1 80 10 10 1 0 0 -0 -1 -0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $102 $165 $104 $166 reversed $60 $-1 #
+coedge $-1 -1 -1 $-1 $167 $62 $168 $169 reversed $42 $-1 #
+coedge $-1 -1 -1 $-1 $62 $167 $63 $101 forward $42 $-1 #
+coedge $-1 -1 -1 $-1 $65 $170 $62 $99 forward $105 $-1 #
+edge $-1 -1 -1 $-1 $171 -15 $106 -5 $98 $172 forward @7 unknown T 70 90 0 80 90 0 #
+coedge $-1 -1 -1 $-1 $64 $63 $173 $174 reversed $29 $-1 #
+edge $-1 -1 -1 $-1 $175 0 $106 10 $63 $176 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $177 $95 $64 $103 reversed $60 $-1 #
+edge $-1 -1 -1 $-1 $178 0 $107 10 $102 $179 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $170 $65 $95 $166 forward $105 $-1 #
+loop $-1 -1 -1 $-1 $-1 $170 $180 T 70 10 0 80 90 0 unknown #
+vertex $-1 -1 -1 $-1 $99 $181 #
+vertex $-1 -1 -1 $-1 $66 $182 #
+straight-curve $-1 -1 -1 $-1 70 70 0 0 -1 0 I I #
+face $-1 -1 -1 $-1 $183 $184 $23 $-1 $185 reversed single F F #
+loop $-1 -1 -1 $-1 $186 $187 $67 F unknown #
+plane-surface $-1 -1 -1 $-1 50 50 10 0 0 1 1 0 0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $188 $189 $190 $191 reversed $68 $-1 #
+coedge $-1 -1 -1 $-1 $192 $193 $194 $195 reversed $70 $-1 #
+coedge $-1 -1 -1 $-1 $196 $71 $197 $198 reversed $46 $-1 #
+coedge $-1 -1 -1 $-1 $71 $196 $199 $200 reversed $46 $-1 #
+coedge $-1 -1 -1 $-1 $201 $202 $71 $117 forward $203 $-1 #
+edge $-1 -1 -1 $-1 $204 -20 $205 -10 $71 $206 forward @7 unknown F #
+face $-1 -1 -1 $-1 $207 $208 $16 $-1 $209 forward single F F #
+loop $-1 -1 -1 $-1 $-1 $210 $72 F unknown #
+plane-surface $-1 -1 -1 $-1 70 90 12 0 -1 0 -1 -0 -0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $211 $212 $213 $214 forward $73 $-1 #
+coedge $-1 -1 -1 $-1 $215 $75 $216 $217 reversed $49 $-1 #
+coedge $-1 -1 -1 $-1 $75 $215 $76 $127 forward $49 $-1 #
+coedge $-1 -1 -1 $-1 $78 $218 $75 $125 reversed $131 $-1 #
+edge $-1 -1 -1 $-1 $133 -20 $219 -10 $124 $220 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $77 $76 $221 $222 forward $34 $-1 #
+edge $-1 -1 -1 $-1 $223 0 $133 2 $123 $224 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $225 $210 $77 $129 reversed $119 $-1 #
+edge $-1 -1 -1 $-1 $226 0 $132 2 $77 $227 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $218 $78 $210 $228 reversed $131 $-1 #
+loop $-1 -1 -1 $-1 $-1 $78 $229 F unknown #
+vertex $-1 -1 -1 $-1 $79 $230 #
+vertex $-1 -1 -1 $-1 $79 $231 #
+straight-curve $-1 -1 -1 $-1 80 30 10 0 -1 0 I I #
+face $-1 -1 -1 $-1 $232 $233 $26 $-1 $234 reversed single F F #
+loop $-1 -1 -1 $-1 $-1 $235 $80 F unknown #
+plane-surface $-1 -1 -1 $-1 5 100 12 -1 -0 -0 0 1 0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $236 $237 $238 $239 reversed $81 $-1 #
+coedge $-1 -1 -1 $-1 $240 $83 $241 $242 forward $53 $-1 #
+coedge $-1 -1 -1 $-1 $83 $240 $236 $243 reversed $53 $-1 #
+coedge $-1 -1 -1 $-1 $238 $244 $83 $142 forward $245 $-1 #
+edge $-1 -1 -1 $-1 $246 20 $247 25 $83 $248 forward @7 unknown F #
+face $-1 -1 -1 $-1 $249 $250 $19 $-1 $251 reversed single F F #
+loop $-1 -1 -1 $-1 $-1 $252 $84 F unknown #
+plane-surface $-1 -1 -1 $-1 50 50 15 0 0 1 1 0 0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $157 $156 $87 $149 reversed $85 $-1 #
+coedge $-1 -1 -1 $-1 $253 $87 $254 $255 forward $56 $-1 #
+coedge $-1 -1 -1 $-1 $87 $256 $252 $257 forward $56 $-1 #
+edge $-1 -1 -1 $-1 $258 0.5 $259 2.5 $146 $260 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $261 $88 $262 $263 forward $39 $-1 #
+coedge $-1 -1 -1 $-1 $264 $265 $88 $152 reversed $144 $-1 #
+edge $-1 -1 -1 $-1 $159 20 $266 25 $151 $267 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $89 $261 $268 $269 forward $39 $-1 #
+coedge $-1 -1 -1 $-1 $270 $271 $89 $155 reversed $272 $-1 #
+edge $-1 -1 -1 $-1 $273 15 $158 20 $154 $274 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $146 $90 $271 $275 forward $85 $-1 #
+coedge $-1 -1 -1 $-1 $90 $146 $264 $276 reversed $85 $-1 #
+vertex $-1 -1 -1 $-1 $275 $277 #
+vertex $-1 -1 -1 $-1 $276 $278 #
+straight-curve $-1 -1 -1 $-1 95 90 14.5 0 0 -1 I I #
+face $-1 -1 -1 $-1 $279 $280 $13 $-1 $281 reversed single F F #
+loop $-1 -1 -1 $-1 $-1 $282 $92 F unknown #
+plane-surface $-1 -1 -1 $-1 20 90 10 -1 -0 -0 0 1 0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $283 $168 $170 $284 reversed $93 $-1 #
+coedge $-1 -1 -1 $-1 $95 $177 $283 $285 forward $60 $-1 #
+edge $-1 -1 -1 $-1 $107 10 $286 20 $104 $287 forward @7 unknown T 70 10 0 80 10 0 #
+coedge $-1 -1 -1 $-1 $97 $96 $288 $289 reversed $42 $-1 #
+coedge $-1 -1 -1 $-1 $164 $290 $96 $169 forward $93 $-1 #
+edge $-1 -1 -1 $-1 $291 0 $171 10 $96 $292 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $98 $104 $164 $284 forward $105 $-1 #
+vertex $-1 -1 -1 $-1 $284 $293 #
+straight-curve $-1 -1 -1 $-1 65 90 0 -1 0 0 I I #
+coedge $-1 -1 -1 $-1 $288 $294 $100 $174 forward $295 $-1 #
+edge $-1 -1 -1 $-1 $178 -60 $175 20 $173 $296 forward @7 unknown T 70 10 10 70 90 10 #
+vertex $-1 -1 -1 $-1 $289 $297 #
+straight-curve $-1 -1 -1 $-1 70 90 10 0 0 -1 I I #
+coedge $-1 -1 -1 $-1 $165 $102 $294 $298 reversed $60 $-1 #
+vertex $-1 -1 -1 $-1 $174 $299 #
+straight-curve $-1 -1 -1 $-1 70 10 10 0 0 -1 I I #
+face $-1 -1 -1 $-1 $300 $301 $13 $-1 $302 reversed single F F #
+point $-1 -1 -1 $-1 70 90 0 #
+point $-1 -1 -1 $-1 70 10 0 #
+face $-1 -1 -1 $-1 $303 $304 $23 $-1 $305 forward single F F #
+loop $-1 -1 -1 $-1 $-1 $306 $109 F unknown #
+plane-surface $-1 -1 -1 $-1 50 0 6 0 1 0 0 0 1 forward_v I I I I #
+loop $-1 -1 -1 $-1 $-1 $307 $67 F unknown #
+coedge $-1 -1 -1 $-1 $308 $309 $310 $311 reversed $110 $-1 #
+coedge $-1 -1 -1 $-1 $312 $112 $313 $314 forward $68 $-1 #
+coedge $-1 -1 -1 $-1 $112 $312 $193 $315 reversed $68 $-1 #
+coedge $-1 -1 -1 $-1 $316 $317 $112 $191 forward $318 $-1 #
+edge $-1 -1 -1 $-1 $319 1 $320 3 $112 $321 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $322 $113 $323 $324 forward $70 $-1 #
+coedge $-1 -1 -1 $-1 $113 $322 $189 $315 forward $70 $-1 #
+coedge $-1 -1 -1 $-1 $325 $326 $113 $195 forward $327 $-1 #
+edge $-1 -1 -1 $-1 $328 -75 $329 25 $113 $330 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $115 $114 $331 $332 reversed $46 $-1 #
+coedge $-1 -1 -1 $-1 $333 $334 $114 $198 forward $335 $-1 #
+edge $-1 -1 -1 $-1 $336 -60 $204 20 $114 $337 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $338 $339 $115 $200 forward $304 $-1 #
+edge $-1 -1 -1 $-1 $205 -60 $340 20 $115 $341 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $342 $116 $339 $343 forward $203 $-1 #
+coedge $-1 -1 -1 $-1 $116 $342 $333 $344 reversed $203 $-1 #
+loop $-1 -1 -1 $-1 $-1 $342 $303 F unknown #
+vertex $-1 -1 -1 $-1 $117 $345 #
+vertex $-1 -1 -1 $-1 $117 $346 #
+straight-curve $-1 -1 -1 $-1 40 10 12 1 0 0 I I #
+face $-1 -1 -1 $-1 $347 $348 $16 $-1 $349 forward single F F #
+loop $-1 -1 -1 $-1 $-1 $350 $118 F unknown #
+plane-surface $-1 -1 -1 $-1 70 10 12 1 0 0 -0 -1 -0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $128 $351 $130 $228 forward $119 $-1 #
+coedge $-1 -1 -1 $-1 $352 $121 $353 $354 forward $73 $-1 #
+coedge $-1 -1 -1 $-1 $121 $352 $355 $356 forward $73 $-1 #
+coedge $-1 -1 -1 $-1 $357 $358 $121 $214 reversed $359 $-1 #
+edge $-1 -1 -1 $-1 $360 -25 $361 75 $213 $362 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $123 $122 $363 $364 forward $49 $-1 #
+coedge $-1 -1 -1 $-1 $350 $365 $122 $217 forward $208 $-1 #
+edge $-1 -1 -1 $-1 $366 0 $219 2 $216 $367 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $124 $130 $350 $368 reversed $131 $-1 #
+vertex $-1 -1 -1 $-1 $368 $369 #
+straight-curve $-1 -1 -1 $-1 60 10 10 -1 0 0 I I #
+coedge $-1 -1 -1 $-1 $363 $370 $126 $222 reversed $371 $-1 #
+edge $-1 -1 -1 $-1 $223 -60 $226 20 $221 $372 forward @7 unknown F #
+vertex $-1 -1 -1 $-1 $222 $373 #
+straight-curve $-1 -1 -1 $-1 80 10 12 0 0 -1 I I #
+coedge $-1 -1 -1 $-1 $351 $128 $370 $374 forward $119 $-1 #
+vertex $-1 -1 -1 $-1 $374 $375 #
+straight-curve $-1 -1 -1 $-1 80 90 12 0 0 -1 I I #
+edge $-1 -1 -1 $-1 $376 5 $132 15 $130 $377 forward @7 unknown F #
+face $-1 -1 -1 $-1 $378 $359 $16 $-1 $111 reversed single F F #
+point $-1 -1 -1 $-1 80 90 10 #
+point $-1 -1 -1 $-1 80 10 10 #
+face $-1 -1 -1 $-1 $379 $380 $26 $-1 $381 forward single F F #
+loop $-1 -1 -1 $-1 $-1 $382 $135 F unknown #
+plane-surface $-1 -1 -1 $-1 50 50 10 0 0 1 1 0 0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $383 $241 $244 $384 reversed $136 $-1 #
+coedge $-1 -1 -1 $-1 $385 $138 $140 $243 forward $81 $-1 #
+coedge $-1 -1 -1 $-1 $138 $385 $386 $387 forward $81 $-1 #
+coedge $-1 -1 -1 $-1 $388 $141 $138 $239 forward $245 $-1 #
+edge $-1 -1 -1 $-1 $247 -3.5 $389 1.5 $138 $390 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $140 $139 $391 $392 reversed $53 $-1 #
+coedge $-1 -1 -1 $-1 $235 $393 $139 $242 reversed $136 $-1 #
+edge $-1 -1 -1 $-1 $246 -65 $394 15 $139 $395 forward @7 unknown F #
+edge $-1 -1 -1 $-1 $247 -40 $396 40 $236 $397 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $141 $398 $235 $384 forward $245 $-1 #
+loop $-1 -1 -1 $-1 $-1 $388 $399 F unknown #
+vertex $-1 -1 -1 $-1 $242 $400 #
+vertex $-1 -1 -1 $-1 $243 $401 #
+straight-curve $-1 -1 -1 $-1 25 10 15 -1 0 0 I I #
+face $-1 -1 -1 $-1 $402 $403 $19 $-1 $234 reversed single F F #
+loop $-1 -1 -1 $-1 $-1 $404 $143 F unknown #
+plane-surface $-1 -1 -1 $-1 100 50 6 -1 0 0 0 0 1 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $265 $264 $148 $257 reversed $144 $-1 #
+coedge $-1 -1 -1 $-1 $405 $147 $406 $407 forward $56 $-1 #
+coedge $-1 -1 -1 $-1 $271 $270 $147 $255 reversed $272 $-1 #
+edge $-1 -1 -1 $-1 $259 -25 $408 -20 $254 $409 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $148 $405 $404 $410 forward $56 $-1 #
+edge $-1 -1 -1 $-1 $411 -30 $258 -25 $252 $412 forward @7 unknown F #
+vertex $-1 -1 -1 $-1 $257 $413 #
+vertex $-1 -1 -1 $-1 $149 $414 #
+straight-curve $-1 -1 -1 $-1 95 10 14.5 0 0 1 I I #
+coedge $-1 -1 -1 $-1 $153 $150 $415 $416 forward $39 $-1 #
+coedge $-1 -1 -1 $-1 $417 $418 $150 $263 reversed $250 $-1 #
+edge $-1 -1 -1 $-1 $266 -3.5 $419 1.5 $262 $420 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $252 $151 $157 $276 forward $144 $-1 #
+coedge $-1 -1 -1 $-1 $151 $252 $417 $421 reversed $144 $-1 #
+vertex $-1 -1 -1 $-1 $421 $422 #
+straight-curve $-1 -1 -1 $-1 75 90 15 1 0 0 I I #
+coedge $-1 -1 -1 $-1 $423 $424 $153 $269 reversed $425 $-1 #
+edge $-1 -1 -1 $-1 $426 -4.5 $273 2.5 $268 $427 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $254 $154 $424 $428 reversed $272 $-1 #
+coedge $-1 -1 -1 $-1 $154 $254 $156 $275 reversed $272 $-1 #
+loop $-1 -1 -1 $-1 $-1 $254 $429 F unknown #
+vertex $-1 -1 -1 $-1 $155 $430 #
+straight-curve $-1 -1 -1 $-1 75 90 17 1 0 0 I I #
+edge $-1 -1 -1 $-1 $158 -65 $259 15 $156 $431 reversed @7 unknown F #
+edge $-1 -1 -1 $-1 $159 -65 $258 15 $264 $432 forward @7 unknown F #
+point $-1 -1 -1 $-1 95 90 17 #
+point $-1 -1 -1 $-1 95 90 15 #
+face $-1 -1 -1 $-1 $433 $434 $13 $-1 $435 reversed single F F #
+loop $-1 -1 -1 $-1 $-1 $436 $161 F unknown #
+plane-surface $-1 -1 -1 $-1 30 90 10 0 1 0 1 0 0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $437 $438 $439 $440 reversed $162 $-1 #
+coedge $-1 -1 -1 $-1 $290 $164 $165 $285 reversed $93 $-1 #
+edge $-1 -1 -1 $-1 $286 -20 $171 60 $170 $441 forward @7 unknown T 80 10 0 80 90 0 #
+edge $-1 -1 -1 $-1 $442 0 $286 10 $283 $443 forward @7 unknown F #
+vertex $-1 -1 -1 $-1 $284 $444 #
+straight-curve $-1 -1 -1 $-1 60 10 0 1 0 -0 I I #
+coedge $-1 -1 -1 $-1 $445 $173 $167 $289 forward $295 $-1 #
+edge $-1 -1 -1 $-1 $175 5 $291 15 $288 $446 forward @7 unknown T 70 90 10 80 90 10 #
+coedge $-1 -1 -1 $-1 $168 $283 $445 $447 reversed $93 $-1 #
+vertex $-1 -1 -1 $-1 $447 $448 #
+straight-curve $-1 -1 -1 $-1 80 90 10 0 0 -1 I I #
+point $-1 -1 -1 $-1 80 90 0 #
+coedge $-1 -1 -1 $-1 $173 $445 $177 $298 forward $295 $-1 #
+loop $-1 -1 -1 $-1 $-1 $445 $449 T 70 10 10 80 90 10 unknown #
+straight-curve $-1 -1 -1 $-1 70 70 10 0 1 0 I I #
+point $-1 -1 -1 $-1 70 90 10 #
+edge $-1 -1 -1 $-1 $442 -20 $178 -10 $294 $450 forward @7 unknown T 70 10 10 80 10 10 #
+point $-1 -1 -1 $-1 70 10 10 #
+face $451 -1 -1 $-1 $452 $453 $13 $-1 $454 forward single T 0 0 0 0 100 10 F #
+loop $-1 -1 -1 $-1 $455 $456 $180 T 0 0 0 100 100 0 unknown #
+plane-surface $-1 -1 -1 $-1 50 50 0 0 0 1 1 0 0 forward_v I I I I #
+face $-1 -1 -1 $-1 $457 $203 $23 $-1 $458 forward single F F #
+loop $-1 -1 -1 $-1 $-1 $310 $183 F unknown #
+plane-surface $-1 -1 -1 $-1 30 90 12 -1 -0 -0 0 1 0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $323 $459 $460 $461 reversed $184 $-1 #
+coedge $-1 -1 -1 $-1 $462 $313 $317 $463 reversed $186 $-1 #
+coedge $-1 -1 -1 $-1 $464 $187 $465 $466 reversed $110 $-1 #
+coedge $-1 -1 -1 $-1 $187 $464 $342 $467 reversed $110 $-1 #
+coedge $-1 -1 -1 $-1 $339 $338 $187 $311 forward $304 $-1 #
+edge $-1 -1 -1 $-1 $468 -60 $469 20 $187 $470 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $189 $188 $325 $471 reversed $68 $-1 #
+coedge $-1 -1 -1 $-1 $307 $472 $188 $314 reversed $186 $-1 #
+edge $-1 -1 -1 $-1 $319 10 $473 40 $188 $474 forward @7 unknown F #
+edge $-1 -1 -1 $-1 $320 10 $329 40 $189 $475 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $460 $190 $322 $476 forward $318 $-1 #
+coedge $-1 -1 -1 $-1 $190 $460 $307 $463 forward $318 $-1 #
+loop $-1 -1 -1 $-1 $-1 $317 $477 F unknown #
+vertex $-1 -1 -1 $-1 $314 $478 #
+vertex $-1 -1 -1 $-1 $315 $479 #
+straight-curve $-1 -1 -1 $-1 40 100 9 0 0 1 I I #
+coedge $-1 -1 -1 $-1 $193 $192 $316 $476 reversed $70 $-1 #
+coedge $-1 -1 -1 $-1 $480 $306 $192 $324 reversed $184 $-1 #
+edge $-1 -1 -1 $-1 $328 -40 $481 -10 $323 $482 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $483 $194 $312 $471 forward $327 $-1 #
+coedge $-1 -1 -1 $-1 $194 $483 $480 $484 forward $327 $-1 #
+loop $-1 -1 -1 $-1 $-1 $483 $457 F unknown #
+vertex $-1 -1 -1 $-1 $324 $485 #
+vertex $-1 -1 -1 $-1 $471 $486 #
+straight-curve $-1 -1 -1 $-1 10 75 12 0 1 0 I I #
+coedge $-1 -1 -1 $-1 $487 $488 $196 $332 forward $489 $-1 #
+edge $-1 -1 -1 $-1 $340 5 $336 15 $196 $490 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $491 $197 $202 $344 forward $335 $-1 #
+coedge $-1 -1 -1 $-1 $197 $491 $487 $492 reversed $335 $-1 #
+loop $-1 -1 -1 $-1 $-1 $491 $493 F unknown #
+vertex $-1 -1 -1 $-1 $198 $494 #
+straight-curve $-1 -1 -1 $-1 20 30 12 0 -1 0 I I #
+coedge $-1 -1 -1 $-1 $310 $199 $488 $495 forward $304 $-1 #
+coedge $-1 -1 -1 $-1 $199 $310 $201 $343 reversed $304 $-1 #
+vertex $-1 -1 -1 $-1 $332 $496 #
+straight-curve $-1 -1 -1 $-1 30 70 12 0 1 0 I I #
+coedge $-1 -1 -1 $-1 $202 $201 $309 $467 forward $203 $-1 #
+edge $-1 -1 -1 $-1 $205 0 $469 2 $201 $497 forward @7 unknown F #
+edge $-1 -1 -1 $-1 $204 0 $498 2 $333 $499 forward @7 unknown F #
+point $-1 -1 -1 $-1 20 10 12 #
+point $-1 -1 -1 $-1 30 10 12 #
+face $-1 -1 -1 $-1 $229 $500 $16 $-1 $69 reversed single F F #
+loop $-1 -1 -1 $-1 $-1 $501 $207 F unknown #
+plane-surface $-1 -1 -1 $-1 90 0 12 1 0 0 -0 -1 -0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $502 $216 $218 $368 forward $208 $-1 #
+coedge $-1 -1 -1 $-1 $210 $225 $502 $503 forward $119 $-1 #
+coedge $-1 -1 -1 $-1 $212 $211 $504 $505 forward $73 $-1 #
+coedge $-1 -1 -1 $-1 $506 $507 $211 $354 reversed $508 $-1 #
+edge $-1 -1 -1 $-1 $361 1 $509 3 $353 $510 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $511 $512 $212 $356 reversed $500 $-1 #
+edge $-1 -1 -1 $-1 $513 -3 $360 -1 $355 $514 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $515 $213 $512 $516 reversed $359 $-1 #
+coedge $-1 -1 -1 $-1 $213 $515 $506 $517 reversed $359 $-1 #
+loop $-1 -1 -1 $-1 $131 $213 $229 F unknown #
+vertex $-1 -1 -1 $-1 $356 $518 #
+vertex $-1 -1 -1 $-1 $517 $519 #
+straight-curve $-1 -1 -1 $-1 60 75 10 0 -1 0 I I #
+coedge $-1 -1 -1 $-1 $520 $221 $215 $364 reversed $371 $-1 #
+edge $-1 -1 -1 $-1 $366 5 $223 15 $363 $521 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $216 $502 $520 $522 forward $208 $-1 #
+vertex $-1 -1 -1 $-1 $364 $523 #
+straight-curve $-1 -1 -1 $-1 70 10 12 0 0 -1 I I #
+edge $-1 -1 -1 $-1 $219 -60 $376 20 $218 $524 forward @7 unknown F #
+point $-1 -1 -1 $-1 70 10 10 #
+coedge $-1 -1 -1 $-1 $221 $520 $225 $374 reversed $371 $-1 #
+loop $-1 -1 -1 $-1 $-1 $370 $525 F unknown #
+straight-curve $-1 -1 -1 $-1 80 70 12 0 1 0 I I #
+point $-1 -1 -1 $-1 80 10 12 #
+edge $-1 -1 -1 $-1 $226 -20 $526 -10 $370 $527 forward @7 unknown F #
+point $-1 -1 -1 $-1 80 90 12 #
+vertex $-1 -1 -1 $-1 $228 $528 #
+straight-curve $-1 -1 -1 $-1 65 90 10 1 0 0 I I #
+face $-1 -1 -1 $-1 $525 $508 $16 $-1 $185 reversed single F F #
+face $-1 -1 -1 $-1 $399 $529 $26 $-1 $530 reversed single F F #
+loop $-1 -1 -1 $-1 $-1 $531 $232 F unknown #
+plane-surface $-1 -1 -1 $-1 50 50 17 0 0 1 1 0 0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $386 $532 $388 $533 reversed $233 $-1 #
+coedge $-1 -1 -1 $-1 $393 $235 $534 $535 forward $136 $-1 #
+edge $-1 -1 -1 $-1 $536 -2.5 $246 -0.5 $235 $537 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $237 $236 $538 $539 reversed $81 $-1 #
+coedge $-1 -1 -1 $-1 $540 $382 $237 $387 reversed $233 $-1 #
+edge $-1 -1 -1 $-1 $541 -40 $389 40 $237 $542 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $543 $238 $382 $533 forward $245 $-1 #
+vertex $-1 -1 -1 $-1 $239 $544 #
+straight-curve $-1 -1 -1 $-1 0 10 11.5 0 0 -1 I I #
+coedge $-1 -1 -1 $-1 $545 $538 $240 $392 forward $546 $-1 #
+edge $-1 -1 -1 $-1 $396 -30 $394 -25 $240 $547 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $241 $383 $545 $548 reversed $136 $-1 #
+vertex $-1 -1 -1 $-1 $392 $549 #
+straight-curve $-1 -1 -1 $-1 5 75 15 0 1 0 F -10075.000001 F 9925.0000010000003 #
+vertex $-1 -1 -1 $-1 $392 $550 #
+straight-curve $-1 -1 -1 $-1 0 50 15 0 1 0 I I #
+coedge $-1 -1 -1 $-1 $244 $543 $531 $551 forward $245 $-1 #
+face $-1 -1 -1 $-1 $552 $245 $26 $-1 $553 forward single F F #
+point $-1 -1 -1 $-1 5 10 15 #
+point $-1 -1 -1 $-1 0 10 15 #
+face $-1 -1 -1 $-1 $429 $425 $19 $-1 $554 reversed single F F #
+loop $-1 -1 -1 $-1 $-1 $555 $249 F unknown #
+coedge $-1 -1 -1 $-1 $418 $417 $256 $410 reversed $250 $-1 #
+coedge $-1 -1 -1 $-1 $256 $253 $555 $556 forward $56 $-1 #
+coedge $-1 -1 -1 $-1 $424 $423 $253 $407 reversed $425 $-1 #
+edge $-1 -1 -1 $-1 $408 -2.5 $557 4.5 $406 $558 forward @7 unknown F #
+vertex $-1 -1 -1 $-1 $428 $559 #
+straight-curve $-1 -1 -1 $-1 70 10 17 -1 0 0 I I #
+edge $-1 -1 -1 $-1 $560 -1.5 $411 3.5 $404 $561 forward @7 unknown F #
+vertex $-1 -1 -1 $-1 $410 $562 #
+straight-curve $-1 -1 -1 $-1 70 10 15 -1 0 0 I I #
+point $-1 -1 -1 $-1 95 10 15 #
+point $-1 -1 -1 $-1 95 10 17 #
+coedge $-1 -1 -1 $-1 $563 $564 $261 $416 reversed $403 $-1 #
+edge $-1 -1 -1 $-1 $419 -25 $426 -15 $415 $565 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $404 $262 $265 $421 forward $250 $-1 #
+coedge $-1 -1 -1 $-1 $262 $404 $563 $566 forward $250 $-1 #
+vertex $-1 -1 -1 $-1 $416 $567 #
+straight-curve $-1 -1 -1 $-1 100 90 11.5 0 0 -1 I I #
+edge $-1 -1 -1 $-1 $266 -40 $411 40 $417 $568 forward @7 unknown F #
+point $-1 -1 -1 $-1 100 90 15 #
+coedge $-1 -1 -1 $-1 $406 $268 $564 $569 forward $425 $-1 #
+coedge $-1 -1 -1 $-1 $268 $406 $270 $428 forward $425 $-1 #
+loop $-1 -1 -1 $-1 $-1 $406 $402 F unknown #
+vertex $-1 -1 -1 $-1 $569 $570 #
+straight-curve $-1 -1 -1 $-1 90 90 14.5 0 0 1 I I #
+edge $-1 -1 -1 $-1 $408 -60 $273 20 $270 $571 forward @7 unknown F #
+face $-1 -1 -1 $-1 $-1 $272 $19 $-1 $572 forward single F F #
+point $-1 -1 -1 $-1 90 90 17 #
+straight-curve $-1 -1 -1 $-1 95 25 17 0 1 0 F -10025.000001 F 9975.0000010000003 #
+straight-curve $-1 -1 -1 $-1 95 25 15 0 -1 0 F -9975.0000010000003 F 10025.000001 #
+face $-1 -1 -1 $-1 $449 $573 $13 $-1 $574 reversed single F F #
+loop $-1 -1 -1 $-1 $-1 $575 $279 F unknown #
+plane-surface $-1 -1 -1 $-1 20 10 10 0 -1 0 -1 -0 -0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $576 $577 $578 $579 reversed $280 $-1 #
+coedge $-1 -1 -1 $-1 $580 $282 $577 $581 reversed $162 $-1 #
+coedge $-1 -1 -1 $-1 $282 $580 $582 $583 forward $162 $-1 #
+coedge $-1 -1 -1 $-1 $584 $578 $282 $440 forward $455 $-1 #
+edge $-1 -1 -1 $-1 $585 -20 $586 60 $439 $587 forward @7 unknown T 20 10 0 20 90 0 #
+straight-curve $-1 -1 -1 $-1 80 30 0 0 1 0 I I #
+vertex $-1 -1 -1 $-1 $447 $588 #
+straight-curve $-1 -1 -1 $-1 80 10 10 0 0 -1 I I #
+point $-1 -1 -1 $-1 80 10 0 #
+coedge $-1 -1 -1 $-1 $294 $288 $290 $447 forward $295 $-1 #
+straight-curve $-1 -1 -1 $-1 65 90 10 1 0 0 I I #
+edge $-1 -1 -1 $-1 $291 -60 $442 20 $445 $589 forward @7 unknown T 80 10 10 80 90 10 #
+point $-1 -1 -1 $-1 80 90 10 #
+face $-1 -1 -1 $-1 $180 $590 $13 $-1 $591 forward single F F #
+straight-curve $-1 -1 -1 $-1 60 10 10 -1 0 0 I I #
+string_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $300 2 4 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @13 boundary_face @4 true #
+face $592 -1 -1 $-1 $593 $594 $13 $-1 $595 forward single T 0 100 0 100 100 10 F #
+loop $-1 -1 -1 $-1 $-1 $596 $300 T 0 0 0 0 100 10 unknown #
+plane-surface $-1 -1 -1 $-1 0 0 0 -1 0 0 0 -1 0 forward_v I I I I #
+loop $-1 -1 -1 $-1 $105 $597 $180 F unknown #
+coedge $-1 -1 -1 $-1 $598 $599 $600 $601 reversed $301 $-1 #
+face $-1 -1 -1 $-1 $602 $327 $23 $-1 $603 forward single F F #
+plane-surface $-1 -1 -1 $-1 30 10 12 0 1 0 1 0 0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $306 $480 $462 $604 forward $184 $-1 #
+coedge $-1 -1 -1 $-1 $317 $316 $306 $461 forward $318 $-1 #
+edge $-1 -1 -1 $-1 $481 -3 $605 -1 $306 $606 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $472 $307 $459 $604 reversed $186 $-1 #
+edge $-1 -1 -1 $-1 $605 -25 $319 75 $307 $607 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $309 $308 $491 $608 reversed $110 $-1 #
+coedge $-1 -1 -1 $-1 $488 $487 $308 $466 forward $489 $-1 #
+edge $-1 -1 -1 $-1 $609 -20 $468 -10 $308 $610 forward @7 unknown F #
+edge $-1 -1 -1 $-1 $469 5 $498 15 $309 $611 forward @7 unknown F #
+vertex $-1 -1 -1 $-1 $311 $612 #
+vertex $-1 -1 -1 $-1 $311 $613 #
+straight-curve $-1 -1 -1 $-1 30 30 10 0 -1 0 I I #
+edge $-1 -1 -1 $-1 $329 -3 $473 -1 $312 $614 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $313 $462 $483 $615 reversed $186 $-1 #
+vertex $-1 -1 -1 $-1 $471 $616 #
+straight-curve $-1 -1 -1 $-1 50 100 10 -1 0 0 I I #
+straight-curve $-1 -1 -1 $-1 50 100 12 -1 0 0 I I #
+edge $-1 -1 -1 $-1 $320 -75 $481 25 $322 $617 forward @7 unknown F #
+face $-1 -1 -1 $-1 $-1 $318 $23 $-1 $618 forward single F F #
+point $-1 -1 -1 $-1 40 100 10 #
+point $-1 -1 -1 $-1 40 100 12 #
+coedge $-1 -1 -1 $-1 $459 $323 $326 $484 reversed $184 $-1 #
+vertex $-1 -1 -1 $-1 $476 $619 #
+straight-curve $-1 -1 -1 $-1 50 0 12 1 0 0 I I #
+coedge $-1 -1 -1 $-1 $326 $325 $472 $615 forward $327 $-1 #
+edge $-1 -1 -1 $-1 $620 1 $328 3 $480 $621 forward @7 unknown F #
+point $-1 -1 -1 $-1 10 0 12 #
+point $-1 -1 -1 $-1 10 100 12 #
+coedge $-1 -1 -1 $-1 $465 $331 $334 $492 forward $489 $-1 #
+coedge $-1 -1 -1 $-1 $331 $465 $338 $495 reversed $489 $-1 #
+loop $-1 -1 -1 $-1 $-1 $465 $602 F unknown #
+straight-curve $-1 -1 -1 $-1 35 90 12 -1 0 0 I I #
+coedge $-1 -1 -1 $-1 $334 $333 $464 $608 forward $335 $-1 #
+edge $-1 -1 -1 $-1 $336 0 $609 2 $487 $622 forward @7 unknown F #
+face $-1 -1 -1 $-1 $477 $335 $23 $-1 $623 forward single F F #
+point $-1 -1 -1 $-1 20 90 12 #
+edge $-1 -1 -1 $-1 $340 0 $468 2 $338 $624 forward @7 unknown F #
+point $-1 -1 -1 $-1 30 90 12 #
+straight-curve $-1 -1 -1 $-1 30 10 12 0 0 -1 I I #
+vertex $-1 -1 -1 $-1 $608 $625 #
+straight-curve $-1 -1 -1 $-1 20 10 12 0 0 -1 I I #
+loop $-1 -1 -1 $-1 $-1 $355 $347 F unknown #
+coedge $-1 -1 -1 $-1 $626 $627 $515 $628 forward $348 $-1 #
+coedge $-1 -1 -1 $-1 $365 $350 $351 $503 reversed $208 $-1 #
+edge $-1 -1 -1 $-1 $526 0 $376 2 $351 $629 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $630 $631 $352 $505 reversed $632 $-1 #
+edge $-1 -1 -1 $-1 $509 -75 $513 25 $504 $633 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $634 $353 $358 $517 forward $508 $-1 #
+coedge $-1 -1 -1 $-1 $353 $634 $630 $635 reversed $508 $-1 #
+loop $-1 -1 -1 $-1 $-1 $353 $378 F unknown #
+vertex $-1 -1 -1 $-1 $635 $636 #
+straight-curve $-1 -1 -1 $-1 60 0 9 0 0 1 I I #
+coedge $-1 -1 -1 $-1 $637 $355 $631 $638 reversed $500 $-1 #
+coedge $-1 -1 -1 $-1 $355 $637 $357 $516 forward $500 $-1 #
+vertex $-1 -1 -1 $-1 $505 $639 #
+straight-curve $-1 -1 -1 $-1 60 100 9 0 0 -1 I I #
+coedge $-1 -1 -1 $-1 $358 $357 $501 $628 reversed $359 $-1 #
+edge $-1 -1 -1 $-1 $640 -40 $360 -10 $512 $474 forward @7 unknown F #
+edge $-1 -1 -1 $-1 $361 10 $641 40 $506 $642 forward @7 unknown F #
+point $-1 -1 -1 $-1 60 100 10 #
+point $-1 -1 -1 $-1 60 0 10 #
+coedge $-1 -1 -1 $-1 $370 $363 $365 $522 reversed $371 $-1 #
+straight-curve $-1 -1 -1 $-1 65 10 12 1 0 0 I I #
+edge $-1 -1 -1 $-1 $526 -60 $366 20 $520 $643 forward @7 unknown F #
+point $-1 -1 -1 $-1 70 10 12 #
+straight-curve $-1 -1 -1 $-1 70 70 10 0 1 0 I I #
+face $-1 -1 -1 $-1 $-1 $632 $16 $-1 $47 forward single F F #
+vertex $-1 -1 -1 $-1 $374 $644 #
+straight-curve $-1 -1 -1 $-1 60 90 12 -1 0 0 I I #
+point $-1 -1 -1 $-1 70 90 10 #
+loop $-1 -1 -1 $-1 $-1 $645 $379 F unknown #
+plane-surface $-1 -1 -1 $-1 10 100 12 -1 -0 -0 0 1 0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $646 $534 $398 $551 reversed $380 $-1 #
+coedge $-1 -1 -1 $-1 $382 $540 $647 $648 reversed $233 $-1 #
+edge $-1 -1 -1 $-1 $389 -25 $649 -15 $382 $650 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $531 $651 $383 $535 reversed $380 $-1 #
+edge $-1 -1 -1 $-1 $536 -65 $652 15 $383 $653 reversed @7 unknown F #
+vertex $-1 -1 -1 $-1 $535 $654 #
+straight-curve $-1 -1 -1 $-1 5 10 14.5 0 0 -1 I I #
+coedge $-1 -1 -1 $-1 $391 $655 $385 $539 forward $546 $-1 #
+edge $-1 -1 -1 $-1 $541 -1.5 $396 3.5 $385 $656 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $532 $386 $655 $657 reversed $233 $-1 #
+vertex $-1 -1 -1 $-1 $387 $658 #
+straight-curve $-1 -1 -1 $-1 0 50 10 0 -1 0 I I #
+coedge $-1 -1 -1 $-1 $398 $388 $645 $659 forward $245 $-1 #
+point $-1 -1 -1 $-1 0 10 10 #
+coedge $-1 -1 -1 $-1 $660 $391 $393 $548 forward $546 $-1 #
+loop $-1 -1 -1 $-1 $-1 $655 $552 F unknown #
+straight-curve $-1 -1 -1 $-1 30 90 15 1 0 0 I I #
+edge $-1 -1 -1 $-1 $394 0.5 $652 2.5 $393 $661 forward @7 unknown F #
+point $-1 -1 -1 $-1 5 90 15 #
+point $-1 -1 -1 $-1 0 90 15 #
+edge $-1 -1 -1 $-1 $662 15 $536 20 $531 $663 forward @7 unknown F #
+face $-1 -1 -1 $-1 $-1 $546 $26 $-1 $664 forward single F F #
+plane-surface $-1 -1 -1 $-1 0 10 17 0 -1 0 -1 -0 -0 forward_v I I I I #
+plane-surface $-1 -1 -1 $-1 90 0 12 1 0 0 -0 -1 -0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $564 $563 $405 $556 reversed $403 $-1 #
+edge $-1 -1 -1 $-1 $557 20 $560 30 $555 $665 forward @7 unknown F #
+vertex $-1 -1 -1 $-1 $407 $666 #
+straight-curve $-1 -1 -1 $-1 90 10 14.5 0 0 -1 I I #
+point $-1 -1 -1 $-1 90 10 17 #
+vertex $-1 -1 -1 $-1 $566 $667 #
+straight-curve $-1 -1 -1 $-1 100 10 11.5 0 0 1 I I #
+point $-1 -1 -1 $-1 100 10 15 #
+coedge $-1 -1 -1 $-1 $555 $415 $418 $566 reversed $403 $-1 #
+coedge $-1 -1 -1 $-1 $415 $555 $423 $569 reversed $403 $-1 #
+straight-curve $-1 -1 -1 $-1 75 90 10 -1 0 0 I I #
+edge $-1 -1 -1 $-1 $560 -40 $419 40 $418 $668 forward @7 unknown F #
+point $-1 -1 -1 $-1 100 90 10 #
+straight-curve $-1 -1 -1 $-1 100 50 15 0 -1 0 I I #
+edge $-1 -1 -1 $-1 $426 -65 $557 15 $564 $669 forward @7 unknown F #
+point $-1 -1 -1 $-1 90 90 10 #
+straight-curve $-1 -1 -1 $-1 90 70 17 0 1 0 I I #
+plane-surface $-1 -1 -1 $-1 50 50 17 0 0 1 1 0 0 forward_v I I I I #
+loop $-1 -1 -1 $-1 $-1 $670 $433 F unknown #
+plane-surface $-1 -1 -1 $-1 30 10 10 1 0 0 -0 -1 -0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $582 $671 $584 $672 reversed $434 $-1 #
+coedge $-1 -1 -1 $-1 $673 $436 $674 $675 reversed $280 $-1 #
+coedge $-1 -1 -1 $-1 $436 $673 $437 $581 forward $280 $-1 #
+coedge $-1 -1 -1 $-1 $439 $597 $436 $579 forward $455 $-1 #
+edge $-1 -1 -1 $-1 $676 10 $585 20 $578 $677 forward @7 unknown T 20 90 0 30 90 0 #
+coedge $-1 -1 -1 $-1 $438 $437 $678 $679 reversed $162 $-1 #
+edge $-1 -1 -1 $-1 $680 0 $585 10 $437 $681 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $682 $575 $438 $583 reversed $434 $-1 #
+edge $-1 -1 -1 $-1 $683 0 $586 10 $582 $684 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $597 $439 $575 $672 forward $455 $-1 #
+vertex $-1 -1 -1 $-1 $579 $685 #
+vertex $-1 -1 -1 $-1 $440 $686 #
+straight-curve $-1 -1 -1 $-1 20 70 0 0 -1 0 I I #
+point $-1 -1 -1 $-1 80 10 10 #
+straight-curve $-1 -1 -1 $-1 80 30 10 0 -1 0 I I #
+loop $-1 -1 -1 $-1 $687 $688 $449 T 0 0 10 100 100 10 unknown #
+plane-surface $-1 -1 -1 $-1 50 50 10 0 0 1 1 0 0 forward_v I I I I #
+string_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $452 2 4 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @13 boundary_face @4 true #
+face $689 -1 -1 $-1 $690 $691 $13 $-1 $692 forward single T 100 0 0 100 100 10 F #
+loop $-1 -1 -1 $-1 $-1 $693 $452 T 0 100 0 100 100 10 unknown #
+plane-surface $-1 -1 -1 $-1 0 100 0 0 1 -0 -1 0 0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $694 $695 $688 $696 forward $453 $-1 #
+coedge $-1 -1 -1 $-1 $578 $584 $670 $697 forward $455 $-1 #
+coedge $-1 -1 -1 $-1 $698 $456 $699 $700 reversed $301 $-1 #
+coedge $-1 -1 -1 $-1 $456 $698 $701 $702 reversed $301 $-1 #
+coedge $-1 -1 -1 $-1 $703 $704 $456 $601 forward $705 $-1 #
+edge $-1 -1 -1 $-1 $706 0 $707 1 $600 $708 forward @7 unknown T 0 0 0 100 0 0 #
+face $-1 -1 -1 $-1 $493 $489 $23 $-1 $709 forward single F F #
+plane-surface $-1 -1 -1 $-1 10 100 12 -1 -0 -0 0 1 0 forward_v I I I I #
+edge $-1 -1 -1 $-1 $620 -40 $605 -10 $459 $642 forward @7 unknown F #
+vertex $-1 -1 -1 $-1 $461 $710 #
+straight-curve $-1 -1 -1 $-1 40 0 9 0 0 -1 I I #
+straight-curve $-1 -1 -1 $-1 40 25 10 0 1 0 I I #
+edge $-1 -1 -1 $-1 $498 -60 $609 20 $464 $711 forward @7 unknown F #
+vertex $-1 -1 -1 $-1 $466 $712 #
+straight-curve $-1 -1 -1 $-1 40 90 10 1 0 0 I I #
+straight-curve $-1 -1 -1 $-1 35 10 10 -1 0 0 I I #
+point $-1 -1 -1 $-1 30 90 10 #
+point $-1 -1 -1 $-1 30 10 10 #
+straight-curve $-1 -1 -1 $-1 10 100 9 0 0 -1 I I #
+edge $-1 -1 -1 $-1 $473 -25 $620 75 $472 $713 forward @7 unknown F #
+point $-1 -1 -1 $-1 10 100 10 #
+straight-curve $-1 -1 -1 $-1 40 25 12 0 -1 0 I I #
+plane-surface $-1 -1 -1 $-1 40 0 12 1 0 0 -0 -1 -0 forward_v I I I I #
+point $-1 -1 -1 $-1 40 0 12 #
+vertex $-1 -1 -1 $-1 $604 $714 #
+straight-curve $-1 -1 -1 $-1 10 0 9 0 0 1 I I #
+straight-curve $-1 -1 -1 $-1 20 90 12 0 0 -1 I I #
+plane-surface $-1 -1 -1 $-1 20 10 12 1 0 0 -0 -1 -0 forward_v I I I I #
+straight-curve $-1 -1 -1 $-1 30 90 12 0 0 -1 I I #
+point $-1 -1 -1 $-1 20 10 10 #
+coedge $-1 -1 -1 $-1 $715 $501 $637 $716 forward $348 $-1 #
+coedge $-1 -1 -1 $-1 $501 $715 $634 $717 forward $348 $-1 #
+edge $-1 -1 -1 $-1 $641 -25 $640 75 $515 $718 forward @7 unknown F #
+straight-curve $-1 -1 -1 $-1 70 90 12 0 0 -1 I I #
+coedge $-1 -1 -1 $-1 $719 $504 $507 $635 forward $632 $-1 #
+coedge $-1 -1 -1 $-1 $504 $719 $511 $638 forward $632 $-1 #
+loop $-1 -1 -1 $-1 $371 $719 $525 F unknown #
+straight-curve $-1 -1 -1 $-1 60 75 12 0 1 0 I I #
+coedge $-1 -1 -1 $-1 $507 $506 $627 $717 reversed $508 $-1 #
+edge $-1 -1 -1 $-1 $509 10 $720 40 $507 $482 forward @7 unknown F #
+point $-1 -1 -1 $-1 60 0 12 #
+coedge $-1 -1 -1 $-1 $512 $511 $626 $716 reversed $500 $-1 #
+edge $-1 -1 -1 $-1 $721 -40 $513 -10 $511 $475 forward @7 unknown F #
+point $-1 -1 -1 $-1 60 100 12 #
+vertex $-1 -1 -1 $-1 $516 $722 #
+vertex $-1 -1 -1 $-1 $717 $723 #
+straight-curve $-1 -1 -1 $-1 50 0 10 1 0 0 I I #
+straight-curve $-1 -1 -1 $-1 70 30 12 0 -1 0 I I #
+point $-1 -1 -1 $-1 70 90 12 #
+coedge $-1 -1 -1 $-1 $647 $724 $543 $659 reversed $529 $-1 #
+coedge $-1 -1 -1 $-1 $651 $531 $724 $725 reversed $380 $-1 #
+coedge $-1 -1 -1 $-1 $726 $645 $532 $648 forward $529 $-1 #
+edge $-1 -1 -1 $-1 $649 -65 $727 15 $532 $728 forward @7 unknown F #
+vertex $-1 -1 -1 $-1 $648 $729 #
+straight-curve $-1 -1 -1 $-1 25 10 10 1 0 0 I I #
+coedge $-1 -1 -1 $-1 $534 $646 $660 $730 reversed $380 $-1 #
+vertex $-1 -1 -1 $-1 $548 $731 #
+straight-curve $-1 -1 -1 $-1 5 75 17 0 -1 0 F -9925.0000010000003 F 10075.000001 #
+point $-1 -1 -1 $-1 5 10 17 #
+coedge $-1 -1 -1 $-1 $538 $732 $540 $657 forward $546 $-1 #
+straight-curve $-1 -1 -1 $-1 0 90 11.5 0 0 1 I I #
+edge $-1 -1 -1 $-1 $727 20 $541 30 $540 $733 forward @7 unknown F #
+point $-1 -1 -1 $-1 0 90 10 #
+edge $-1 -1 -1 $-1 $649 -4.5 $662 2.5 $645 $734 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $732 $545 $651 $730 forward $546 $-1 #
+straight-curve $-1 -1 -1 $-1 5 90 14.5 0 0 1 I I #
+vertex $-1 -1 -1 $-1 $725 $735 #
+straight-curve $-1 -1 -1 $-1 25 10 17 -1 0 0 I I #
+plane-surface $-1 -1 -1 $-1 10 90 17 0 1 0 1 0 0 forward_v I I I I #
+straight-curve $-1 -1 -1 $-1 70 10 10 1 0 0 I I #
+point $-1 -1 -1 $-1 90 10 10 #
+point $-1 -1 -1 $-1 100 10 10 #
+straight-curve $-1 -1 -1 $-1 100 50 10 0 1 0 I I #
+straight-curve $-1 -1 -1 $-1 90 25 10 0 -1 0 I I #
+coedge $-1 -1 -1 $-1 $736 $674 $597 $697 reversed $573 $-1 #
+coedge $-1 -1 -1 $-1 $575 $682 $736 $737 forward $434 $-1 #
+edge $-1 -1 -1 $-1 $586 -15 $738 -5 $584 $739 forward @7 unknown T 20 10 0 30 10 0 #
+coedge $-1 -1 -1 $-1 $577 $576 $740 $741 reversed $280 $-1 #
+coedge $-1 -1 -1 $-1 $670 $742 $576 $675 forward $573 $-1 #
+edge $-1 -1 -1 $-1 $743 0 $676 10 $576 $744 forward @7 unknown F #
+vertex $-1 -1 -1 $-1 $697 $745 #
+straight-curve $-1 -1 -1 $-1 40 90 0 -1 0 0 I I #
+coedge $-1 -1 -1 $-1 $740 $746 $580 $679 forward $687 $-1 #
+edge $-1 -1 -1 $-1 $683 -60 $680 20 $678 $747 forward @7 unknown T 20 10 10 20 90 10 #
+vertex $-1 -1 -1 $-1 $741 $748 #
+straight-curve $-1 -1 -1 $-1 20 90 10 0 0 -1 I I #
+coedge $-1 -1 -1 $-1 $671 $582 $746 $749 reversed $434 $-1 #
+vertex $-1 -1 -1 $-1 $679 $750 #
+straight-curve $-1 -1 -1 $-1 20 10 10 0 0 -1 I I #
+point $-1 -1 -1 $-1 20 90 0 #
+point $-1 -1 -1 $-1 20 10 0 #
+loop $-1 -1 -1 $-1 $295 $751 $449 F unknown #
+coedge $-1 -1 -1 $-1 $752 $753 $596 $696 reversed $590 $-1 #
+string_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $593 2 4 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @13 boundary_face @4 true #
+face $754 -1 -1 $-1 $-1 $705 $13 $-1 $755 forward single T 0 0 0 100 0 10 F #
+loop $-1 -1 -1 $-1 $-1 $756 $593 T 100 0 0 100 100 10 unknown #
+plane-surface $-1 -1 -1 $-1 100 100 0 1 0 0 0 1 0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $757 $758 $753 $759 forward $594 $-1 #
+coedge $-1 -1 -1 $-1 $699 $596 $758 $760 reversed $453 $-1 #
+coedge $-1 -1 -1 $-1 $596 $699 $704 $761 forward $453 $-1 #
+edge $-1 -1 -1 $-1 $762 -1 $763 0 $596 $764 forward @7 unknown T 0 0 10 0 100 10 #
+edge $-1 -1 -1 $-1 $738 -20 $676 60 $597 $765 forward @7 unknown T 30 10 0 30 90 0 #
+coedge $-1 -1 -1 $-1 $599 $598 $766 $767 reversed $301 $-1 #
+coedge $-1 -1 -1 $-1 $695 $694 $598 $700 forward $453 $-1 #
+edge $-1 -1 -1 $-1 $768 0 $706 1 $699 $769 forward @7 unknown T 0 0 0 0 100 0 #
+coedge $-1 -1 -1 $-1 $770 $771 $599 $702 forward $691 $-1 #
+edge $-1 -1 -1 $-1 $707 0 $772 1 $701 $773 forward @7 unknown T 100 0 0 100 100 0 #
+coedge $-1 -1 -1 $-1 $774 $600 $771 $775 forward $705 $-1 #
+coedge $-1 -1 -1 $-1 $600 $774 $695 $761 reversed $705 $-1 #
+loop $-1 -1 -1 $-1 $-1 $774 $690 T 0 0 0 100 0 10 unknown #
+vertex $-1 -1 -1 $-1 $601 $776 #
+vertex $-1 -1 -1 $-1 $702 $777 #
+straight-curve $-1 -1 -1 $-1 0 0 0 100 0 0 I I #
+plane-surface $-1 -1 -1 $-1 20 90 12 0 -1 0 -1 -0 -0 forward_v I I I I #
+point $-1 -1 -1 $-1 40 0 10 #
+straight-curve $-1 -1 -1 $-1 20 70 10 0 1 0 I I #
+point $-1 -1 -1 $-1 20 90 10 #
+straight-curve $-1 -1 -1 $-1 10 75 10 0 -1 0 I I #
+point $-1 -1 -1 $-1 10 0 10 #
+coedge $-1 -1 -1 $-1 $627 $626 $719 $778 forward $348 $-1 #
+edge $-1 -1 -1 $-1 $640 1 $721 3 $637 $779 forward @7 unknown F #
+edge $-1 -1 -1 $-1 $720 -3 $641 -1 $634 $780 forward @7 unknown F #
+straight-curve $-1 -1 -1 $-1 90 25 10 0 1 0 I I #
+coedge $-1 -1 -1 $-1 $631 $630 $715 $778 reversed $632 $-1 #
+vertex $-1 -1 -1 $-1 $717 $781 #
+vertex $-1 -1 -1 $-1 $638 $782 #
+point $-1 -1 -1 $-1 90 100 10 #
+point $-1 -1 -1 $-1 90 0 10 #
+coedge $-1 -1 -1 $-1 $645 $726 $646 $725 forward $529 $-1 #
+edge $-1 -1 -1 $-1 $783 -60 $662 20 $646 $784 forward @7 unknown F #
+coedge $-1 -1 -1 $-1 $724 $647 $732 $785 reversed $529 $-1 #
+vertex $-1 -1 -1 $-1 $657 $786 #
+straight-curve $-1 -1 -1 $-1 10 75 10 0 1 0 I I #
+point $-1 -1 -1 $-1 10 10 10 #
+edge $-1 -1 -1 $-1 $652 -25 $783 -20 $651 $787 forward @7 unknown F #
+point $-1 -1 -1 $-1 5 90 17 #
+coedge $-1 -1 -1 $-1 $655 $660 $726 $785 forward $546 $-1 #
+straight-curve $-1 -1 -1 $-1 30 90 10 -1 0 0 I I #
+straight-curve $-1 -1 -1 $-1 10 10 14.5 0 0 1 I I #
+point $-1 -1 -1 $-1 10 10 17 #
+coedge $-1 -1 -1 $-1 $742 $670 $671 $737 reversed $573 $-1 #
+edge $-1 -1 -1 $-1 $788 0 $738 10 $736 $789 forward @7 unknown F #
+vertex $-1 -1 -1 $-1 $697 $790 #
+straight-curve $-1 -1 -1 $-1 35 10 0 1 0 -0 I I #
+coedge $-1 -1 -1 $-1 $751 $678 $673 $741 forward $687 $-1 #
+edge $-1 -1 -1 $-1 $680 -20 $743 -10 $740 $791 forward @7 unknown T 20 90 10 30 90 10 #
+coedge $-1 -1 -1 $-1 $674 $736 $751 $792 reversed $573 $-1 #
+vertex $-1 -1 -1 $-1 $792 $793 #
+straight-curve $-1 -1 -1 $-1 30 90 10 0 0 -1 I I #
+point $-1 -1 -1 $-1 30 90 0 #
+coedge $-1 -1 -1 $-1 $678 $751 $682 $749 forward $687 $-1 #
+straight-curve $-1 -1 -1 $-1 20 70 10 0 1 0 I I #
+point $-1 -1 -1 $-1 20 90 10 #
+edge $-1 -1 -1 $-1 $788 5 $683 15 $746 $794 forward @7 unknown T 20 10 10 30 10 10 #
+point $-1 -1 -1 $-1 20 10 10 #
+coedge $-1 -1 -1 $-1 $746 $740 $742 $792 forward $687 $-1 #
+coedge $-1 -1 -1 $-1 $795 $688 $774 $796 reversed $590 $-1 #
+coedge $-1 -1 -1 $-1 $688 $795 $693 $759 reversed $590 $-1 #
+string_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $690 2 4 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @13 boundary_face @4 true #
+plane-surface $-1 -1 -1 $-1 100 0 0 0 -1 0 1 0 0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $771 $770 $795 $797 forward $691 $-1 #
+coedge $-1 -1 -1 $-1 $766 $693 $770 $798 reversed $594 $-1 #
+coedge $-1 -1 -1 $-1 $693 $766 $694 $760 forward $594 $-1 #
+edge $-1 -1 -1 $-1 $763 -1 $799 0 $693 $800 forward @7 unknown T 0 100 10 100 100 10 #
+edge $-1 -1 -1 $-1 $768 0 $763 10 $758 $801 forward @7 unknown T 0 100 0 0 100 10 #
+edge $-1 -1 -1 $-1 $706 0 $762 10 $695 $802 forward @7 unknown T 0 0 0 0 0 10 #
+vertex $-1 -1 -1 $-1 $761 $803 #
+vertex $-1 -1 -1 $-1 $760 $804 #
+straight-curve $-1 -1 -1 $-1 0 100 10 0 100 0 I I #
+straight-curve $-1 -1 -1 $-1 30 30 0 0 1 0 I I #
+coedge $-1 -1 -1 $-1 $758 $757 $698 $767 forward $594 $-1 #
+edge $-1 -1 -1 $-1 $772 0 $768 1 $766 $805 forward @7 unknown T 0 100 0 100 100 0 #
+vertex $-1 -1 -1 $-1 $700 $806 #
+straight-curve $-1 -1 -1 $-1 0 100 0 0 -100 0 I I #
+coedge $-1 -1 -1 $-1 $756 $701 $757 $798 forward $691 $-1 #
+coedge $-1 -1 -1 $-1 $701 $756 $703 $775 reversed $691 $-1 #
+vertex $-1 -1 -1 $-1 $767 $807 #
+straight-curve $-1 -1 -1 $-1 100 0 0 0 100 0 I I #
+coedge $-1 -1 -1 $-1 $704 $703 $752 $796 forward $705 $-1 #
+edge $-1 -1 -1 $-1 $707 0 $808 10 $703 $809 forward @7 unknown T 100 0 0 100 0 10 #
+point $-1 -1 -1 $-1 0 0 0 #
+point $-1 -1 -1 $-1 100 0 0 #
+edge $-1 -1 -1 $-1 $721 -75 $720 25 $719 $810 forward @7 unknown F #
+straight-curve $-1 -1 -1 $-1 90 100 9 0 0 1 I I #
+straight-curve $-1 -1 -1 $-1 90 0 9 0 0 -1 I I #
+point $-1 -1 -1 $-1 90 0 12 #
+point $-1 -1 -1 $-1 90 100 12 #
+vertex $-1 -1 -1 $-1 $725 $811 #
+straight-curve $-1 -1 -1 $-1 10 30 17 0 -1 0 I I #
+edge $-1 -1 -1 $-1 $783 -2.5 $727 4.5 $726 $812 forward @7 unknown F #
+point $-1 -1 -1 $-1 10 90 10 #
+straight-curve $-1 -1 -1 $-1 30 90 17 1 0 0 I I #
+vertex $-1 -1 -1 $-1 $792 $813 #
+straight-curve $-1 -1 -1 $-1 30 10 10 0 0 -1 I I #
+point $-1 -1 -1 $-1 30 10 0 #
+straight-curve $-1 -1 -1 $-1 40 90 10 1 0 0 I I #
+edge $-1 -1 -1 $-1 $743 -60 $788 20 $751 $814 forward @7 unknown T 30 10 10 30 90 10 #
+point $-1 -1 -1 $-1 30 90 10 #
+straight-curve $-1 -1 -1 $-1 35 10 10 -1 0 0 I I #
+coedge $-1 -1 -1 $-1 $753 $752 $756 $797 reversed $590 $-1 #
+edge $-1 -1 -1 $-1 $808 -1 $762 -0 $774 $815 forward @7 unknown T 0 0 10 100 0 10 #
+edge $-1 -1 -1 $-1 $799 -1 $808 -0 $756 $816 forward @7 unknown T 100 0 10 100 100 10 #
+edge $-1 -1 -1 $-1 $772 0 $799 10 $770 $817 forward @7 unknown T 100 100 0 100 100 10 #
+vertex $-1 -1 -1 $-1 $798 $818 #
+straight-curve $-1 -1 -1 $-1 100 100 10 100 0 0 I I #
+straight-curve $-1 -1 -1 $-1 0 100 0 0 0 1 I I #
+straight-curve $-1 -1 -1 $-1 0 0 0 0 0 1 I I #
+point $-1 -1 -1 $-1 0 0 10 #
+point $-1 -1 -1 $-1 0 100 10 #
+straight-curve $-1 -1 -1 $-1 100 100 0 -100 0 0 I I #
+point $-1 -1 -1 $-1 0 100 0 #
+point $-1 -1 -1 $-1 100 100 0 #
+vertex $-1 -1 -1 $-1 $775 $819 #
+straight-curve $-1 -1 -1 $-1 100 0 0 0 0 1 I I #
+straight-curve $-1 -1 -1 $-1 90 25 12 0 -1 0 I I #
+point $-1 -1 -1 $-1 10 90 17 #
+straight-curve $-1 -1 -1 $-1 10 90 14.5 0 0 -1 I I #
+point $-1 -1 -1 $-1 30 10 10 #
+straight-curve $-1 -1 -1 $-1 30 30 10 0 -1 0 I I #
+straight-curve $-1 -1 -1 $-1 0 0 10 -100 -0 -0 I I #
+straight-curve $-1 -1 -1 $-1 100 0 10 -0 -100 -0 I I #
+straight-curve $-1 -1 -1 $-1 100 100 0 0 0 1 I I #
+point $-1 -1 -1 $-1 100 100 10 #
+point $-1 -1 -1 $-1 100 0 10 #
+End-of-ACIS-data 
