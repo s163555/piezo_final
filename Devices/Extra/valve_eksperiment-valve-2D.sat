@@ -1,143 +1,276 @@
-600 0 6 0
-34 LayoutEditor Build 2006.000.2106.2 13 ACIS 6.0.3 NT 24 Wed Nov 30 09:06:04 2022
+600 0 11 0
+34 LayoutEditor Build 2006.000.2106.2 13 ACIS 6.0.3 NT 24 Sat Dec 03 07:41:20 2022
 1 1e-006 1e-010
--0 body $6 $-1 $-1 $-1 #
--1 body $12 $14 $-1 $-1 #
--2 body $37 $39 $-1 $-1 #
--3 body $62 $65 $-1 $-1 #
--4 body $88 $91 $-1 $-1 #
--5 body $114 $116 $-1 $-1 #
--6 integer_attrib-name_attrib-gen-attrib $-1 $7 $-1 $0 keep keep_kept ignore copy 15 technology_info 4 #
--7 string_attrib-name_attrib-gen-attrib $-1 $8 $6 $0 keep keep_kept ignore copy 10 layer_list 33 SubstrateMask,seat,piston,piston2 #
--8 string_attrib-name_attrib-gen-attrib $-1 $9 $7 $0 keep keep_kept ignore copy 13 SubstrateMask 15 l+SubstrateMask #
--9 string_attrib-name_attrib-gen-attrib $-1 $10 $8 $0 keep keep_kept ignore copy 4 seat 6 l+seat #
--10 string_attrib-name_attrib-gen-attrib $-1 $11 $9 $0 keep keep_kept ignore copy 6 piston 8 l+piston #
--11 string_attrib-name_attrib-gen-attrib $-1 $-1 $10 $0 keep keep_kept ignore copy 7 piston2 9 l+piston2 #
--12 rgb_color-st-attrib $-1 $13 $-1 $1 0 0 255 #
--13 string_attrib-name_attrib-gen-attrib $-1 $-1 $12 $1 keep keep_kept ignore copy 14 masklayer_name 13 SubstrateMask #
--14 lump $-1 $-1 $15 $1 #
--15 shell $-1 $-1 $-1 $-1 $16 $14 #
--16 wire $-1 $-1 $17 $15 $-1 out #
--17 coedge $-1 $18 $20 $-1 $21 forward $16 $-1 #
--18 coedge $-1 $19 $17 $-1 $22 forward $16 $-1 #
--19 coedge $-1 $20 $18 $-1 $23 forward $16 $-1 #
--20 coedge $-1 $17 $19 $-1 $24 forward $16 $-1 #
--21 edge $-1 $29 0 $30 1 $17 $25 forward 7 unknown #
--22 edge $-1 $30 0 $31 1 $18 $26 forward 7 unknown #
--23 edge $-1 $31 0 $32 1 $19 $27 forward 7 unknown #
--24 edge $-1 $32 0 $29 1 $20 $28 forward 7 unknown #
--25 straight-curve $-1 0 0 0 100 0 0 I I #
--26 straight-curve $-1 100 0 0 0 100 0 I I #
--27 straight-curve $-1 100 100 0 -100 0 0 I I #
--28 straight-curve $-1 0 100 0 0 -100 0 I I #
--29 vertex $-1 $21 $33 #
--30 vertex $-1 $22 $34 #
--31 vertex $-1 $23 $35 #
--32 vertex $-1 $24 $36 #
--33 point $-1 0 0 0 #
--34 point $-1 100 0 0 #
--35 point $-1 100 100 0 #
--36 point $-1 0 100 0 #
--37 rgb_color-st-attrib $-1 $38 $-1 $2 255 255 0 #
--38 string_attrib-name_attrib-gen-attrib $-1 $-1 $37 $2 keep keep_kept ignore copy 14 masklayer_name 4 seat #
--39 lump $-1 $-1 $40 $2 #
--40 shell $-1 $-1 $-1 $-1 $41 $39 #
--41 wire $-1 $-1 $42 $40 $-1 out #
--42 coedge $-1 $43 $45 $-1 $46 forward $41 $-1 #
--43 coedge $-1 $44 $42 $-1 $47 forward $41 $-1 #
--44 coedge $-1 $45 $43 $-1 $48 forward $41 $-1 #
--45 coedge $-1 $42 $44 $-1 $49 forward $41 $-1 #
--46 edge $-1 $54 0 $55 1 $42 $50 forward 7 unknown #
--47 edge $-1 $55 0 $56 1 $43 $51 forward 7 unknown #
--48 edge $-1 $56 0 $57 1 $44 $52 forward 7 unknown #
--49 edge $-1 $57 0 $54 1 $45 $53 forward 7 unknown #
--50 straight-curve $-1 40 30 0 20 0 0 I I #
--51 straight-curve $-1 60 30 0 0 40 0 I I #
--52 straight-curve $-1 60 70 0 -20 0 0 I I #
--53 straight-curve $-1 40 70 0 0 -40 0 I I #
--54 vertex $-1 $46 $58 #
--55 vertex $-1 $47 $59 #
--56 vertex $-1 $48 $60 #
--57 vertex $-1 $49 $61 #
--58 point $-1 40 30 0 #
--59 point $-1 60 30 0 #
--60 point $-1 60 70 0 #
--61 point $-1 40 70 0 #
--62 rgb_color-st-attrib $-1 $63 $-1 $3 0 0 255 #
--63 string_attrib-name_attrib-gen-attrib $-1 $64 $62 $3 keep keep_kept ignore copy 14 masklayer_name 6 piston #
--64 integer_attrib-name_attrib-gen-attrib $-1 $-1 $63 $3 keep keep_kept ignore copy 12 group_number 1 #
--65 lump $-1 $-1 $66 $3 #
--66 shell $-1 $-1 $-1 $-1 $67 $65 #
--67 wire $-1 $-1 $68 $66 $-1 out #
--68 coedge $-1 $69 $71 $-1 $72 forward $67 $-1 #
--69 coedge $-1 $70 $68 $-1 $73 forward $67 $-1 #
--70 coedge $-1 $71 $69 $-1 $74 forward $67 $-1 #
--71 coedge $-1 $68 $70 $-1 $75 forward $67 $-1 #
--72 edge $-1 $80 0 $81 1 $68 $76 forward 7 unknown #
--73 edge $-1 $81 0 $82 1 $69 $77 forward 7 unknown #
--74 edge $-1 $82 0 $83 1 $70 $78 forward 7 unknown #
--75 edge $-1 $83 0 $80 1 $71 $79 forward 7 unknown #
--76 straight-curve $-1 26 83 0 0 -66 0 I I #
--77 straight-curve $-1 26 17 0 47 0 0 I I #
--78 straight-curve $-1 73 17 0 0 66 0 I I #
--79 straight-curve $-1 73 83 0 -47 0 0 I I #
--80 vertex $-1 $72 $84 #
--81 vertex $-1 $73 $85 #
--82 vertex $-1 $74 $86 #
--83 vertex $-1 $75 $87 #
--84 point $-1 26 83 0 #
--85 point $-1 26 17 0 #
--86 point $-1 73 17 0 #
--87 point $-1 73 83 0 #
--88 rgb_color-st-attrib $-1 $89 $-1 $4 0 0 255 #
--89 string_attrib-name_attrib-gen-attrib $-1 $90 $88 $4 keep keep_kept ignore copy 14 masklayer_name 6 piston #
--90 integer_attrib-name_attrib-gen-attrib $-1 $-1 $89 $4 keep keep_kept ignore copy 12 group_number 1 #
--91 lump $-1 $-1 $92 $4 #
--92 shell $-1 $-1 $-1 $-1 $93 $91 #
--93 wire $-1 $-1 $94 $92 $-1 out #
--94 coedge $-1 $95 $97 $-1 $98 forward $93 $-1 #
--95 coedge $-1 $96 $94 $-1 $99 forward $93 $-1 #
--96 coedge $-1 $97 $95 $-1 $100 forward $93 $-1 #
--97 coedge $-1 $94 $96 $-1 $101 forward $93 $-1 #
--98 edge $-1 $106 0 $107 1 $94 $102 forward 7 unknown #
--99 edge $-1 $107 0 $108 1 $95 $103 forward 7 unknown #
--100 edge $-1 $108 0 $109 1 $96 $104 forward 7 unknown #
--101 edge $-1 $109 0 $106 1 $97 $105 forward 7 unknown #
--102 straight-curve $-1 28 81 0 43 0 0 I I #
--103 straight-curve $-1 71 81 0 0 -62 0 I I #
--104 straight-curve $-1 71 19 0 -43 0 0 I I #
--105 straight-curve $-1 28 19 0 0 62 0 I I #
--106 vertex $-1 $98 $110 #
--107 vertex $-1 $99 $111 #
--108 vertex $-1 $100 $112 #
--109 vertex $-1 $101 $113 #
--110 point $-1 28 81 0 #
--111 point $-1 71 81 0 #
--112 point $-1 71 19 0 #
--113 point $-1 28 19 0 #
--114 rgb_color-st-attrib $-1 $115 $-1 $5 255 0 0 #
--115 string_attrib-name_attrib-gen-attrib $-1 $-1 $114 $5 keep keep_kept ignore copy 14 masklayer_name 7 piston2 #
--116 lump $-1 $-1 $117 $5 #
--117 shell $-1 $-1 $-1 $-1 $118 $116 #
--118 wire $-1 $-1 $119 $117 $-1 out #
--119 coedge $-1 $120 $122 $-1 $123 forward $118 $-1 #
--120 coedge $-1 $121 $119 $-1 $124 forward $118 $-1 #
--121 coedge $-1 $122 $120 $-1 $125 forward $118 $-1 #
--122 coedge $-1 $119 $121 $-1 $126 forward $118 $-1 #
--123 edge $-1 $131 0 $132 1 $119 $127 forward 7 unknown #
--124 edge $-1 $132 0 $133 1 $120 $128 forward 7 unknown #
--125 edge $-1 $133 0 $134 1 $121 $129 forward 7 unknown #
--126 edge $-1 $134 0 $131 1 $122 $130 forward 7 unknown #
--127 straight-curve $-1 28 19 0 43 0 0 I I #
--128 straight-curve $-1 71 19 0 0 62 0 I I #
--129 straight-curve $-1 71 81 0 -43 0 0 I I #
--130 straight-curve $-1 28 81 0 0 -62 0 I I #
--131 vertex $-1 $123 $135 #
--132 vertex $-1 $124 $136 #
--133 vertex $-1 $125 $137 #
--134 vertex $-1 $126 $138 #
--135 point $-1 28 19 0 #
--136 point $-1 71 19 0 #
--137 point $-1 71 81 0 #
--138 point $-1 28 81 0 #
+-0 body $11 $-1 $-1 $-1 #
+-1 body $20 $22 $-1 $-1 #
+-2 body $45 $47 $-1 $-1 #
+-3 body $70 $73 $-1 $-1 #
+-4 body $96 $99 $-1 $-1 #
+-5 body $122 $124 $-1 $-1 #
+-6 body $147 $149 $-1 $-1 #
+-7 body $172 $174 $-1 $-1 #
+-8 body $197 $199 $-1 $-1 #
+-9 body $222 $224 $-1 $-1 #
+-10 body $247 $249 $-1 $-1 #
+-11 integer_attrib-name_attrib-gen-attrib $-1 $12 $-1 $0 keep keep_kept ignore copy 15 technology_info 7 #
+-12 string_attrib-name_attrib-gen-attrib $-1 $13 $11 $0 keep keep_kept ignore copy 10 layer_list 68 SubstrateMask,seat,piston,piston2,valvestop,uppervalvestop,reservoir #
+-13 string_attrib-name_attrib-gen-attrib $-1 $14 $12 $0 keep keep_kept ignore copy 13 SubstrateMask 15 l+SubstrateMask #
+-14 string_attrib-name_attrib-gen-attrib $-1 $15 $13 $0 keep keep_kept ignore copy 4 seat 6 l+seat #
+-15 string_attrib-name_attrib-gen-attrib $-1 $16 $14 $0 keep keep_kept ignore copy 6 piston 8 l+piston #
+-16 string_attrib-name_attrib-gen-attrib $-1 $17 $15 $0 keep keep_kept ignore copy 7 piston2 9 l+piston2 #
+-17 string_attrib-name_attrib-gen-attrib $-1 $18 $16 $0 keep keep_kept ignore copy 9 valvestop 11 l+valvestop #
+-18 string_attrib-name_attrib-gen-attrib $-1 $19 $17 $0 keep keep_kept ignore copy 14 uppervalvestop 16 l+uppervalvestop #
+-19 string_attrib-name_attrib-gen-attrib $-1 $-1 $18 $0 keep keep_kept ignore copy 9 reservoir 11 l+reservoir #
+-20 rgb_color-st-attrib $-1 $21 $-1 $1 0 0 255 #
+-21 string_attrib-name_attrib-gen-attrib $-1 $-1 $20 $1 keep keep_kept ignore copy 14 masklayer_name 13 SubstrateMask #
+-22 lump $-1 $-1 $23 $1 #
+-23 shell $-1 $-1 $-1 $-1 $24 $22 #
+-24 wire $-1 $-1 $25 $23 $-1 out #
+-25 coedge $-1 $26 $28 $-1 $29 forward $24 $-1 #
+-26 coedge $-1 $27 $25 $-1 $30 forward $24 $-1 #
+-27 coedge $-1 $28 $26 $-1 $31 forward $24 $-1 #
+-28 coedge $-1 $25 $27 $-1 $32 forward $24 $-1 #
+-29 edge $-1 $37 0 $38 1 $25 $33 forward 7 unknown #
+-30 edge $-1 $38 0 $39 1 $26 $34 forward 7 unknown #
+-31 edge $-1 $39 0 $40 1 $27 $35 forward 7 unknown #
+-32 edge $-1 $40 0 $37 1 $28 $36 forward 7 unknown #
+-33 straight-curve $-1 0 0 0 100 0 0 I I #
+-34 straight-curve $-1 100 0 0 0 100 0 I I #
+-35 straight-curve $-1 100 100 0 -100 0 0 I I #
+-36 straight-curve $-1 0 100 0 0 -100 0 I I #
+-37 vertex $-1 $29 $41 #
+-38 vertex $-1 $30 $42 #
+-39 vertex $-1 $31 $43 #
+-40 vertex $-1 $32 $44 #
+-41 point $-1 0 0 0 #
+-42 point $-1 100 0 0 #
+-43 point $-1 100 100 0 #
+-44 point $-1 0 100 0 #
+-45 rgb_color-st-attrib $-1 $46 $-1 $2 255 255 0 #
+-46 string_attrib-name_attrib-gen-attrib $-1 $-1 $45 $2 keep keep_kept ignore copy 14 masklayer_name 4 seat #
+-47 lump $-1 $-1 $48 $2 #
+-48 shell $-1 $-1 $-1 $-1 $49 $47 #
+-49 wire $-1 $-1 $50 $48 $-1 out #
+-50 coedge $-1 $51 $53 $-1 $54 forward $49 $-1 #
+-51 coedge $-1 $52 $50 $-1 $55 forward $49 $-1 #
+-52 coedge $-1 $53 $51 $-1 $56 forward $49 $-1 #
+-53 coedge $-1 $50 $52 $-1 $57 forward $49 $-1 #
+-54 edge $-1 $62 0 $63 1 $50 $58 forward 7 unknown #
+-55 edge $-1 $63 0 $64 1 $51 $59 forward 7 unknown #
+-56 edge $-1 $64 0 $65 1 $52 $60 forward 7 unknown #
+-57 edge $-1 $65 0 $62 1 $53 $61 forward 7 unknown #
+-58 straight-curve $-1 40 30 0 20 0 0 I I #
+-59 straight-curve $-1 60 30 0 0 40 0 I I #
+-60 straight-curve $-1 60 70 0 -20 0 0 I I #
+-61 straight-curve $-1 40 70 0 0 -40 0 I I #
+-62 vertex $-1 $54 $66 #
+-63 vertex $-1 $55 $67 #
+-64 vertex $-1 $56 $68 #
+-65 vertex $-1 $57 $69 #
+-66 point $-1 40 30 0 #
+-67 point $-1 60 30 0 #
+-68 point $-1 60 70 0 #
+-69 point $-1 40 70 0 #
+-70 rgb_color-st-attrib $-1 $71 $-1 $3 0 0 255 #
+-71 string_attrib-name_attrib-gen-attrib $-1 $72 $70 $3 keep keep_kept ignore copy 14 masklayer_name 6 piston #
+-72 integer_attrib-name_attrib-gen-attrib $-1 $-1 $71 $3 keep keep_kept ignore copy 12 group_number 1 #
+-73 lump $-1 $-1 $74 $3 #
+-74 shell $-1 $-1 $-1 $-1 $75 $73 #
+-75 wire $-1 $-1 $76 $74 $-1 out #
+-76 coedge $-1 $77 $79 $-1 $80 forward $75 $-1 #
+-77 coedge $-1 $78 $76 $-1 $81 forward $75 $-1 #
+-78 coedge $-1 $79 $77 $-1 $82 forward $75 $-1 #
+-79 coedge $-1 $76 $78 $-1 $83 forward $75 $-1 #
+-80 edge $-1 $88 0 $89 1 $76 $84 forward 7 unknown #
+-81 edge $-1 $89 0 $90 1 $77 $85 forward 7 unknown #
+-82 edge $-1 $90 0 $91 1 $78 $86 forward 7 unknown #
+-83 edge $-1 $91 0 $88 1 $79 $87 forward 7 unknown #
+-84 straight-curve $-1 26 83 0 0 -66 0 I I #
+-85 straight-curve $-1 26 17 0 47 0 0 I I #
+-86 straight-curve $-1 73 17 0 0 66 0 I I #
+-87 straight-curve $-1 73 83 0 -47 0 0 I I #
+-88 vertex $-1 $80 $92 #
+-89 vertex $-1 $81 $93 #
+-90 vertex $-1 $82 $94 #
+-91 vertex $-1 $83 $95 #
+-92 point $-1 26 83 0 #
+-93 point $-1 26 17 0 #
+-94 point $-1 73 17 0 #
+-95 point $-1 73 83 0 #
+-96 rgb_color-st-attrib $-1 $97 $-1 $4 0 0 255 #
+-97 string_attrib-name_attrib-gen-attrib $-1 $98 $96 $4 keep keep_kept ignore copy 14 masklayer_name 6 piston #
+-98 integer_attrib-name_attrib-gen-attrib $-1 $-1 $97 $4 keep keep_kept ignore copy 12 group_number 1 #
+-99 lump $-1 $-1 $100 $4 #
+-100 shell $-1 $-1 $-1 $-1 $101 $99 #
+-101 wire $-1 $-1 $102 $100 $-1 out #
+-102 coedge $-1 $103 $105 $-1 $106 forward $101 $-1 #
+-103 coedge $-1 $104 $102 $-1 $107 forward $101 $-1 #
+-104 coedge $-1 $105 $103 $-1 $108 forward $101 $-1 #
+-105 coedge $-1 $102 $104 $-1 $109 forward $101 $-1 #
+-106 edge $-1 $114 0 $115 1 $102 $110 forward 7 unknown #
+-107 edge $-1 $115 0 $116 1 $103 $111 forward 7 unknown #
+-108 edge $-1 $116 0 $117 1 $104 $112 forward 7 unknown #
+-109 edge $-1 $117 0 $114 1 $105 $113 forward 7 unknown #
+-110 straight-curve $-1 28 81 0 43 0 0 I I #
+-111 straight-curve $-1 71 81 0 0 -62 0 I I #
+-112 straight-curve $-1 71 19 0 -43 0 0 I I #
+-113 straight-curve $-1 28 19 0 0 62 0 I I #
+-114 vertex $-1 $106 $118 #
+-115 vertex $-1 $107 $119 #
+-116 vertex $-1 $108 $120 #
+-117 vertex $-1 $109 $121 #
+-118 point $-1 28 81 0 #
+-119 point $-1 71 81 0 #
+-120 point $-1 71 19 0 #
+-121 point $-1 28 19 0 #
+-122 rgb_color-st-attrib $-1 $123 $-1 $5 255 0 0 #
+-123 string_attrib-name_attrib-gen-attrib $-1 $-1 $122 $5 keep keep_kept ignore copy 14 masklayer_name 7 piston2 #
+-124 lump $-1 $-1 $125 $5 #
+-125 shell $-1 $-1 $-1 $-1 $126 $124 #
+-126 wire $-1 $-1 $127 $125 $-1 out #
+-127 coedge $-1 $128 $130 $-1 $131 forward $126 $-1 #
+-128 coedge $-1 $129 $127 $-1 $132 forward $126 $-1 #
+-129 coedge $-1 $130 $128 $-1 $133 forward $126 $-1 #
+-130 coedge $-1 $127 $129 $-1 $134 forward $126 $-1 #
+-131 edge $-1 $139 0 $140 1 $127 $135 forward 7 unknown #
+-132 edge $-1 $140 0 $141 1 $128 $136 forward 7 unknown #
+-133 edge $-1 $141 0 $142 1 $129 $137 forward 7 unknown #
+-134 edge $-1 $142 0 $139 1 $130 $138 forward 7 unknown #
+-135 straight-curve $-1 28 19 0 43 0 0 I I #
+-136 straight-curve $-1 71 19 0 0 62 0 I I #
+-137 straight-curve $-1 71 81 0 -43 0 0 I I #
+-138 straight-curve $-1 28 81 0 0 -62 0 I I #
+-139 vertex $-1 $131 $143 #
+-140 vertex $-1 $132 $144 #
+-141 vertex $-1 $133 $145 #
+-142 vertex $-1 $134 $146 #
+-143 point $-1 28 19 0 #
+-144 point $-1 71 19 0 #
+-145 point $-1 71 81 0 #
+-146 point $-1 28 81 0 #
+-147 rgb_color-st-attrib $-1 $148 $-1 $6 0 255 0 #
+-148 string_attrib-name_attrib-gen-attrib $-1 $-1 $147 $6 keep keep_kept ignore copy 14 masklayer_name 9 valvestop #
+-149 lump $-1 $-1 $150 $6 #
+-150 shell $-1 $-1 $-1 $-1 $151 $149 #
+-151 wire $-1 $-1 $152 $150 $-1 out #
+-152 coedge $-1 $153 $155 $-1 $156 forward $151 $-1 #
+-153 coedge $-1 $154 $152 $-1 $157 forward $151 $-1 #
+-154 coedge $-1 $155 $153 $-1 $158 forward $151 $-1 #
+-155 coedge $-1 $152 $154 $-1 $159 forward $151 $-1 #
+-156 edge $-1 $164 0 $165 1 $152 $160 forward 7 unknown #
+-157 edge $-1 $165 0 $166 1 $153 $161 forward 7 unknown #
+-158 edge $-1 $166 0 $167 1 $154 $162 forward 7 unknown #
+-159 edge $-1 $167 0 $164 1 $155 $163 forward 7 unknown #
+-160 straight-curve $-1 28 30 0 12 0 0 I I #
+-161 straight-curve $-1 40 30 0 0 40 0 I I #
+-162 straight-curve $-1 40 70 0 -12 0 0 I I #
+-163 straight-curve $-1 28 70 0 0 -40 0 I I #
+-164 vertex $-1 $156 $168 #
+-165 vertex $-1 $157 $169 #
+-166 vertex $-1 $158 $170 #
+-167 vertex $-1 $159 $171 #
+-168 point $-1 28 30 0 #
+-169 point $-1 40 30 0 #
+-170 point $-1 40 70 0 #
+-171 point $-1 28 70 0 #
+-172 rgb_color-st-attrib $-1 $173 $-1 $7 0 255 0 #
+-173 string_attrib-name_attrib-gen-attrib $-1 $-1 $172 $7 keep keep_kept ignore copy 14 masklayer_name 9 valvestop #
+-174 lump $-1 $-1 $175 $7 #
+-175 shell $-1 $-1 $-1 $-1 $176 $174 #
+-176 wire $-1 $-1 $177 $175 $-1 out #
+-177 coedge $-1 $178 $180 $-1 $181 forward $176 $-1 #
+-178 coedge $-1 $179 $177 $-1 $182 forward $176 $-1 #
+-179 coedge $-1 $180 $178 $-1 $183 forward $176 $-1 #
+-180 coedge $-1 $177 $179 $-1 $184 forward $176 $-1 #
+-181 edge $-1 $189 0 $190 1 $177 $185 forward 7 unknown #
+-182 edge $-1 $190 0 $191 1 $178 $186 forward 7 unknown #
+-183 edge $-1 $191 0 $192 1 $179 $187 forward 7 unknown #
+-184 edge $-1 $192 0 $189 1 $180 $188 forward 7 unknown #
+-185 straight-curve $-1 60 30 0 11 0 0 I I #
+-186 straight-curve $-1 71 30 0 0 40 0 I I #
+-187 straight-curve $-1 71 70 0 -11 0 0 I I #
+-188 straight-curve $-1 60 70 0 0 -40 0 I I #
+-189 vertex $-1 $181 $193 #
+-190 vertex $-1 $182 $194 #
+-191 vertex $-1 $183 $195 #
+-192 vertex $-1 $184 $196 #
+-193 point $-1 60 30 0 #
+-194 point $-1 71 30 0 #
+-195 point $-1 71 70 0 #
+-196 point $-1 60 70 0 #
+-197 rgb_color-st-attrib $-1 $198 $-1 $8 0 255 255 #
+-198 string_attrib-name_attrib-gen-attrib $-1 $-1 $197 $8 keep keep_kept ignore copy 14 masklayer_name 14 uppervalvestop #
+-199 lump $-1 $-1 $200 $8 #
+-200 shell $-1 $-1 $-1 $-1 $201 $199 #
+-201 wire $-1 $-1 $202 $200 $-1 out #
+-202 coedge $-1 $203 $205 $-1 $206 forward $201 $-1 #
+-203 coedge $-1 $204 $202 $-1 $207 forward $201 $-1 #
+-204 coedge $-1 $205 $203 $-1 $208 forward $201 $-1 #
+-205 coedge $-1 $202 $204 $-1 $209 forward $201 $-1 #
+-206 edge $-1 $214 0 $215 1 $202 $210 forward 7 unknown #
+-207 edge $-1 $215 0 $216 1 $203 $211 forward 7 unknown #
+-208 edge $-1 $216 0 $217 1 $204 $212 forward 7 unknown #
+-209 edge $-1 $217 0 $214 1 $205 $213 forward 7 unknown #
+-210 straight-curve $-1 73 17 0 15 0 0 I I #
+-211 straight-curve $-1 88 17 0 0 66 0 I I #
+-212 straight-curve $-1 88 83 0 -15 0 0 I I #
+-213 straight-curve $-1 73 83 0 0 -66 0 I I #
+-214 vertex $-1 $206 $218 #
+-215 vertex $-1 $207 $219 #
+-216 vertex $-1 $208 $220 #
+-217 vertex $-1 $209 $221 #
+-218 point $-1 73 17 0 #
+-219 point $-1 88 17 0 #
+-220 point $-1 88 83 0 #
+-221 point $-1 73 83 0 #
+-222 rgb_color-st-attrib $-1 $223 $-1 $9 0 255 255 #
+-223 string_attrib-name_attrib-gen-attrib $-1 $-1 $222 $9 keep keep_kept ignore copy 14 masklayer_name 14 uppervalvestop #
+-224 lump $-1 $-1 $225 $9 #
+-225 shell $-1 $-1 $-1 $-1 $226 $224 #
+-226 wire $-1 $-1 $227 $225 $-1 out #
+-227 coedge $-1 $228 $230 $-1 $231 forward $226 $-1 #
+-228 coedge $-1 $229 $227 $-1 $232 forward $226 $-1 #
+-229 coedge $-1 $230 $228 $-1 $233 forward $226 $-1 #
+-230 coedge $-1 $227 $229 $-1 $234 forward $226 $-1 #
+-231 edge $-1 $239 0 $240 1 $227 $235 forward 7 unknown #
+-232 edge $-1 $240 0 $241 1 $228 $236 forward 7 unknown #
+-233 edge $-1 $241 0 $242 1 $229 $237 forward 7 unknown #
+-234 edge $-1 $242 0 $239 1 $230 $238 forward 7 unknown #
+-235 straight-curve $-1 12 17 0 14 0 0 I I #
+-236 straight-curve $-1 26 17 0 0 66 0 I I #
+-237 straight-curve $-1 26 83 0 -14 0 0 I I #
+-238 straight-curve $-1 12 83 0 0 -66 0 I I #
+-239 vertex $-1 $231 $243 #
+-240 vertex $-1 $232 $244 #
+-241 vertex $-1 $233 $245 #
+-242 vertex $-1 $234 $246 #
+-243 point $-1 12 17 0 #
+-244 point $-1 26 17 0 #
+-245 point $-1 26 83 0 #
+-246 point $-1 12 83 0 #
+-247 rgb_color-st-attrib $-1 $248 $-1 $10 255 200 0 #
+-248 string_attrib-name_attrib-gen-attrib $-1 $-1 $247 $10 keep keep_kept ignore copy 14 masklayer_name 9 reservoir #
+-249 lump $-1 $-1 $250 $10 #
+-250 shell $-1 $-1 $-1 $-1 $251 $249 #
+-251 wire $-1 $-1 $252 $250 $-1 out #
+-252 coedge $-1 $253 $255 $-1 $256 forward $251 $-1 #
+-253 coedge $-1 $254 $252 $-1 $257 forward $251 $-1 #
+-254 coedge $-1 $255 $253 $-1 $258 forward $251 $-1 #
+-255 coedge $-1 $252 $254 $-1 $259 forward $251 $-1 #
+-256 edge $-1 $264 0 $265 1 $252 $260 forward 7 unknown #
+-257 edge $-1 $265 0 $266 1 $253 $261 forward 7 unknown #
+-258 edge $-1 $266 0 $267 1 $254 $262 forward 7 unknown #
+-259 edge $-1 $267 0 $264 1 $255 $263 forward 7 unknown #
+-260 straight-curve $-1 12 17 0 76 0 0 I I #
+-261 straight-curve $-1 88 17 0 0 66 0 I I #
+-262 straight-curve $-1 88 83 0 -76 0 0 I I #
+-263 straight-curve $-1 12 83 0 0 -66 0 I I #
+-264 vertex $-1 $256 $268 #
+-265 vertex $-1 $257 $269 #
+-266 vertex $-1 $258 $270 #
+-267 vertex $-1 $259 $271 #
+-268 point $-1 12 17 0 #
+-269 point $-1 88 17 0 #
+-270 point $-1 88 83 0 #
+-271 point $-1 12 83 0 #
 End-of-ACIS-data
